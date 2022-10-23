@@ -4,6 +4,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+var mySwiper = new Swiper(".swiper-container", {
+  direction: "vertical",
+  loop: true,
+  pagination: ".swiper-pagination",
+  grabCursor: true,
+  speed: 1000,
+  paginationClickable: true,
+  parallax: true,
+  autoplay: false,
+  effect: "slide",
+  mousewheelControl: 1
+});
+
 (function() {
   "use strict";
 
@@ -34,7 +47,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -195,7 +208,7 @@
   });
 
   /**
-   * Initiate  glightbox 
+   * Initiate  glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
