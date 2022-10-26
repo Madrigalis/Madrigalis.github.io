@@ -212,7 +212,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #222;
@@ -419,7 +419,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+/*  background: url(../img/hero-bg.png) center bottom no-repeat;*/
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -485,8 +485,9 @@ span {
 }
 
 #hero .hero-container {
+  position: relative;
   bottom: 0;
-  top: 0;
+  top: 10%;
   left: 0;
   right: 0;
   display: flex;
@@ -535,6 +536,7 @@ span {
 
 .musicscore{
     max-width: inherit;
+    filter: sepia(40%);
 }
 
 #hero .btn-get-started {
@@ -788,19 +790,36 @@ section {
   display: inline-block;
   height: 100%;
   width: 100%;
+  padding-top: 0;
 }
 
 #features .feature-block {
-  background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
-  margin-bottom: 30px;
+  background: none repeat scroll 0 0;
+/*  padding: 30px 20px;
+  margin-bottom: 30px; */
   transition: all 0.5s ease-in-out 0s;
 }
 
+#luteplayer{
+  background-color: #1d181a;
+}
+
+#musiciansfirst{
+  background-color: #855c56;
+}
+
+#egg{
+  background-color: #AE5648;
+}
+
+#flipimage{
+  background-color: #F8F5ED;
+}
+
 #features .feature-block img {
-  height: 60px;
+/*  height: 60px; */
   margin-bottom: 30px;
-  width: 60px;
+/*  width: 60px; */
 }
 
 #features .feature-block:hover {
@@ -815,6 +834,84 @@ section {
 #features .feature-block p {
   margin-bottom: 0;
 }
+
+#featuresgrid{
+  max-width: 100%;
+  margin: 0;
+}
+#feature .nopadding{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+#ConcertInTheEgg{
+  width: 350px;
+}
+
+#ConcertInTheEgg:hover{
+  animation: rotate 2s linear;
+       }
+
+@keyframes rotate{
+           0%{
+               transform: rotate(0deg);
+           }
+           15%{
+               transform: rotate(15deg);
+           }
+           30%{
+               transform: rotate(-15deg);
+           }
+           45%{
+               transform: rotate(0deg);
+           }
+           60%{
+               transform: rotate(15deg);
+           }
+           75%{
+               transform: rotate(-15deg);
+           }
+           90%{
+               transform: rotate(0deg);
+           }
+           100%{
+               transform: rotate(10deg);
+           }
+       }
 
 /* Screenshots Section
 --------------------------------*/

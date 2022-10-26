@@ -214,4 +214,18 @@
     })
   });
 
+  /**
+   * Painting video with mouseover
+   */
+  document.getElementById("LutePlayerSing").addEventListener("mouseover", function() {
+  	this.play();
+  });
+  document.getElementById("LutePlayerSing").addEventListener("mouseleave", function() {
+  	this.pause();
+  });
+
+  /**
+   * Audio with mouseover
+   */
+
 })()
