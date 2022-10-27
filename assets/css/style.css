@@ -514,11 +514,8 @@ span {
 }
 
 #hero h2 {
-  color: #777;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  position: absolute;
+  font-size: 15vh;
 }
 
 @media (max-width: 768px) {
@@ -889,10 +886,7 @@ section {
 #LutePlayerSing{
   height: 54vh;
 }
-#frame{
-  height: 40vh;
-  margin: 15% auto;
-}
+
 #LasciatemiMorire{
   height: 54vh;
 }
