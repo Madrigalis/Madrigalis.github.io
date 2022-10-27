@@ -224,6 +224,12 @@
   	this.pause();
   });
 
+  document.getElementById("LasciatemiMorire").addEventListener("mouseover", function() {
+  	this.play();
+  });
+  document.getElementById("LasciatemiMorire").addEventListener("mouseleave", function() {
+  	this.pause();
+  });
   /**
    * Audio with mouseover
    */

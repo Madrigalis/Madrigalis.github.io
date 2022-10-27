@@ -807,7 +807,9 @@ section {
 #musiciansfirst{
   background-color: #855c56;
 }
-
+#musiciansecond{
+  background-color: #121012;
+}
 #egg{
   background-color: #AE5648;
 }
@@ -878,8 +880,26 @@ section {
   transform: rotateY(180deg);
 }
 
+.textcard{
+  position: absolute;
+  left: 38%;
+  top: 40%;
+}
+
+#LutePlayerSing{
+  height: 54vh;
+}
+#frame{
+  height: 40vh;
+  margin: 15% auto;
+}
+#LasciatemiMorire{
+  height: 54vh;
+}
+
+
 #ConcertInTheEgg{
-  width: 350px;
+  height: 42vh;
 }
 
 #ConcertInTheEgg:hover{
