@@ -230,6 +230,13 @@
   document.getElementById("LasciatemiMorire").addEventListener("mouseleave", function() {
   	this.pause();
   });
+
+  document.getElementById("ScaredPetrarch").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("ScaredPetrarch").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   /**
    * Audio with mouseover
    */
