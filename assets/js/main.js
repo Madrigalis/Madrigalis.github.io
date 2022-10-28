@@ -237,6 +237,13 @@
   document.getElementById("ScaredPetrarch").addEventListener("mouseleave", function() {
     this.pause();
   });
+
+  document.getElementById("Consti").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("Consti").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   /**
    * Audio with mouseover
    */

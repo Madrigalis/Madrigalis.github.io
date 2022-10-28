@@ -273,6 +273,11 @@ span {
   border-radius: 50%;
 }
 
+@media (max-width: 992px;) {
+
+}
+/* fine Nevbar per schermi più piccoli del pc */
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -849,7 +854,7 @@ section {
   background-color: #AE5648;
 }
 
-#flipimage{
+#fliptext3{
   background-color: #F8F5ED;
 }
 
@@ -920,6 +925,16 @@ section {
   left: 38%;
   top: 40%;
 }
+.grid{
+  padding: 0;
+}
+@media (max-height: 992px) {
+  .grid {
+    padding: 0;
+    height: 55vh;
+    background: white;
+  }
+}
 
 #LutePlayerSing{
   height: 54vh;
@@ -930,6 +945,9 @@ section {
 }
 #ScaredPetrarch{
   height: 40vh;
+  position: absolute;
+  left: 3%;
+  top: 15%;
 }
 #ConcertInTheEgg{
   height: 42vh;
@@ -1112,12 +1130,14 @@ section {
 --------------------------------*/
 #team .team-block {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  height: 254px;
+  /* height: 254px; */
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-
+#Consti{
+  height: 45vh;
+}
 @media (max-width: 991px) {
   #team .team-block {
     margin-bottom: 30px;
