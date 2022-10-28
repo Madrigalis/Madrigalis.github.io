@@ -1135,7 +1135,7 @@ section {
   position: relative;
   width: 100%;
 }
-#Consti{
+#Consti, #Luisa{
   height: 45vh;
 }
 @media (max-width: 991px) {

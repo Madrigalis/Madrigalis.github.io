@@ -244,6 +244,12 @@
   document.getElementById("Consti").addEventListener("mouseleave", function() {
     this.pause();
   });
+  document.getElementById("Luisa").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("Luisa").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   /**
    * Audio with mouseover
    */
