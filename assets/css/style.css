@@ -11,7 +11,7 @@
 body {
   background-color: #fff;
   color: #333;
-  cursor: url('../assets/img/okhand.png') 2 2, pointer;
+
 }
 
 h1,
@@ -144,12 +144,16 @@ span {
 --------------------------------------------------------------*/
 #header {
   background: #F8F5ED;
-  z-index: 997;
-  transition: all 0.5s ease;
-  padding: 20px 0;
-/*  writing-mode: vertical-lr;
   position: fixed;
-  left: auto; */
+  width: 7vw;
+  height: 77vh;
+  top: 0;
+  /* right: 0; */
+  left: 92%;
+  /* z-index: 997; */
+  transition: all 0.5s ease;
+  /* padding: 20px 0; */
+  writing-mode: vertical-lr;
 }
 
 #header #logo h1 {
@@ -157,7 +161,7 @@ span {
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin: 0;
+  margin-top: 4%;
 }
 
 #header #logo h1 a {
@@ -189,7 +193,7 @@ span {
 */
 
 .navbar {
-  padding: 0;
+    margin-top: 40%;
 }
 
 .navbar ul {
@@ -197,13 +201,13 @@ span {
   padding: 0;
   display: flex;
   list-style: none;
-  width: 22px;
-  writing-mode: vertical-lr;
-  position: fixed;
-  top: 35%;
-  right: 1%;
-  flex-wrap: nowrap;
-  align-items: stretch;
+      /* width: 22px; */
+      /* writing-mode: vertical-lr; */
+      /* position: fixed; */
+      /* top: 35%; */
+      /* right: 1%; */
+      /* flex-wrap: nowrap; */
+      /* align-items: stretch; */
 }
 
 .navbar li {
@@ -214,7 +218,7 @@ span {
 .navbar a:focus {
   width: 30px;
   height: 30px;
-  display: flex;
+/*  display: flex; */
   align-items: center;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
@@ -273,6 +277,8 @@ span {
   border: 1px solid #AE5747;
   border-radius: 50%;
 }
+
+
 
 @media (max-width: 992px;) {
 
@@ -469,17 +475,9 @@ span {
   margin-top: 40px;
 }
 
-/*.marquee-section {
-    position: relative;
-    min-height:   100px;
-    font-size: 80px;
-    font-family: 'bodoni', serif;
-    color:black;
+.marquee-section {
+  margin-top: -25vh;
 }
-
- .marquee-section, .marquee-section * {
-    overflow: hidden;
-} */
 
 .marquee {
     white-space: nowrap;
@@ -487,7 +485,7 @@ span {
 
 .marquee-div {
     position: absolute;
-    animation: move-right-to-left linear 20s infinite;
+    animation: move-right-to-left linear 200s infinite;
 }
 
 /* use this one to move from left to right direction */
