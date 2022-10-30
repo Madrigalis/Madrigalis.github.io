@@ -11,6 +11,7 @@
 body {
   background-color: #fff;
   color: #333;
+  cursor: url('../assets/img/okhand.png') 2 2, pointer;
 }
 
 h1,
