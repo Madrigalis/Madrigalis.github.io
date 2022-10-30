@@ -145,7 +145,7 @@ span {
 #header {
   background: #F8F5ED;
   position: fixed;
-  width: 7vw;
+  width: 6vw;
   height: 77vh;
   top: 0;
   /* right: 0; */
@@ -154,6 +154,16 @@ span {
   transition: all 0.5s ease;
   /* padding: 20px 0; */
   writing-mode: vertical-lr;
+}
+#header::before{
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: -40px;
+  border-left: 3vw solid #F8F5ED;
+  border-right: 3vw solid #F8F5ED;
+  border-bottom: 3vw solid transparent;
 }
 
 #header #logo h1 {
@@ -474,9 +484,19 @@ span {
   position: relative;
   margin-top: 40px;
 }
-
+#hero h2{
+  position: absolute;
+  font-size: 14vh;
+  top: 0;
+  left: auto;
+  text-align-last: justify;
+}
+.musicscore{
+    max-width: 50%;
+    filter: sepia(40%);
+}
 .marquee-section {
-  margin-top: -25vh;
+  margin-top: -20vh;
 }
 
 .marquee {
@@ -568,15 +588,12 @@ span {
   }
 }
 
-#hero img {
+/*#hero img {
   max-width: 20%;
   margin-bottom: 30px;
 }
+*/
 
-.musicscore{
-    max-width: inherit;
-    filter: sepia(40%);
-}
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
