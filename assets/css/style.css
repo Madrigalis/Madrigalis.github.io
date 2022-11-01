@@ -8,6 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family:'BD-Renaissance';
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.ttf') format('ttf');
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff') format('woff');
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff2') format('woff2');
+}
+
 body {
   background-color: #fff;
   color: #333;
@@ -485,12 +493,84 @@ span {
   margin-top: 40px;
 }
 #hero h2{
-  position: absolute;
-  font-size: 14vh;
-  top: 0;
-  left: auto;
-  text-align-last: justify;
+  font-size: 15vh;
+  z-index: 3;
+  position: relative;
 }
+
+#hero h2::first-letter{
+  font-family: "BD-Renaissance";
+  text-transform: uppercase;
+  display: block;
+  float: left;
+}
+#Orazio{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+}
+#G{
+  position: relative;
+  z-index: 1;
+  animation: letterspacing1 linear 8s;
+}
+#v{
+    animation: letterspacing2 linear 10s;
+}
+#t{
+  animation: letterspacing1 linear 8s;
+}
+
+#m{
+    animation: letterspacing2 linear 10s;
+}
+#G::first-letter{
+  color: #AE5747;
+}
+#m::first-letter{
+  color: #F0AE49;
+}
+
+/* use this one to move from left to right direction */
+@keyframes letterspacing1{
+           0%{
+             transform: translateX(-50%);
+             letter-spacing: 30px;
+           }
+           55%{
+               transform: translateX(0);
+           }
+           75%{
+               letter-spacing: 10px;
+           }
+           85%{
+               letter-spacing: 15px;
+           }
+           100%{
+               letter-spacing: 2px;
+           }
+       }
+
+@keyframes letterspacing2 {
+             0%{
+               transform: translateX(50%);
+               letter-spacing: 40px;
+             }
+             55%{
+                 transform: translateX(0);
+             }
+             75%{
+                 letter-spacing: 10px;
+             }
+             85%{
+                 letter-spacing: 15px;
+             }
+             100%{
+                 letter-spacing: 2px;
+             }
+         }
+
 .musicscore{
     max-width: 50%;
     filter: sepia(40%);
@@ -548,15 +628,13 @@ span {
 
 #hero .hero-container {
   position: relative;
-  bottom: 0;
   top: 10%;
-  left: 0;
+  bottom: 0;
+  left: 30%;
   right: 0;
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 #hero h1 {
@@ -576,15 +654,24 @@ span {
 }
 
 #hero h2 {
-  position: absolute;
+/*  position: absolute;*/
   font-size: 15vh;
 }
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 102px;
+    position: relative;
+    left: -69px;
+    top: -46px;
+  }
+  #Orazio{
+    position: absolute;
+    height: 98%;
+    bottom: -136px;
+    left: -82px;
+    z-index: 2;
   }
 }
 
