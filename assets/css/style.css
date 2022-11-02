@@ -8,9 +8,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family:'BD-Renaissance';
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.ttf') format('ttf');
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff') format('woff');
+  src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff2') format('woff2');
+}
+
 body {
   background-color: #fff;
   color: #333;
+
 }
 
 h1,
@@ -143,12 +152,26 @@ span {
 --------------------------------------------------------------*/
 #header {
   background: #F8F5ED;
-  z-index: 997;
-  transition: all 0.5s ease;
-  padding: 20px 0;
-/*  writing-mode: vertical-lr;
   position: fixed;
-  left: auto; */
+  width: 6vw;
+  height: 77vh;
+  top: 0;
+  /* right: 0; */
+  left: 92%;
+  /* z-index: 997; */
+  transition: all 0.5s ease;
+  /* padding: 20px 0; */
+  writing-mode: vertical-lr;
+}
+#header::before{
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: -40px;
+  border-left: 3vw solid #F8F5ED;
+  border-right: 3vw solid #F8F5ED;
+  border-bottom: 3vw solid transparent;
 }
 
 #header #logo h1 {
@@ -156,7 +179,7 @@ span {
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin: 0;
+  margin-top: 4%;
 }
 
 #header #logo h1 a {
@@ -188,7 +211,7 @@ span {
 */
 
 .navbar {
-  padding: 0;
+    margin-top: 40%;
 }
 
 .navbar ul {
@@ -196,11 +219,13 @@ span {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
-  writing-mode: vertical-lr;
-  position: fixed;
-  top: 35%;
-  right: 2%;
+      /* width: 22px; */
+      /* writing-mode: vertical-lr; */
+      /* position: fixed; */
+      /* top: 35%; */
+      /* right: 1%; */
+      /* flex-wrap: nowrap; */
+      /* align-items: stretch; */
 }
 
 .navbar li {
@@ -209,15 +234,16 @@ span {
 
 .navbar a,
 .navbar a:focus {
-  display: flex;
+  width: 30px;
+  height: 30px;
+/*  display: flex; */
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 23px;
   color: #222;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.1s;
   letter-spacing: 0;
 }
 
@@ -228,12 +254,54 @@ span {
   margin-left: 5px;
 }
 
+.navbar li a span {
+    position: absolute;
+    right: 28px;
+    writing-mode: horizontal-tb;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+    -webkit-transition: opacity .35s ease,-webkit-transform .35s ease;
+    transition: opacity .35s ease,-webkit-transform .35s ease;
+    transition: opacity .35s ease,transform .35s ease;
+    transition: opacity .35s ease,transform .35s ease,-webkit-transform .35s ease;
+}
+.navbar li a:hover span {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+.navbar li a::before {
+    width: 8px;
+    height: 8px;
+
+  }
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #AE5747;
 }
+
+.navbar .active,
+.navbar .active:focus{
+  color: #AE5747;
+  position: relative;
+  display: block;
+  margin-top: 2%;
+  border: 1px solid #AE5747;
+  border-radius: 50%;
+}
+
+
+
+@media (max-width: 992px;) {
+
+}
+/* fine Nevbar per schermi più piccoli del pc */
 
 .navbar .dropdown ul {
   display: block;
@@ -247,7 +315,7 @@ span {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  transition: 0.1s;
   border-radius: 4px;
 }
 
@@ -424,18 +492,92 @@ span {
   position: relative;
   margin-top: 40px;
 }
-
-/*.marquee-section {
-    position: relative;
-    min-height:   100px;
-    font-size: 80px;
-    font-family: 'bodoni', serif;
-    color:black;
+#hero h2{
+  font-size: 15vh;
+  z-index: 3;
+  position: relative;
 }
 
- .marquee-section, .marquee-section * {
-    overflow: hidden;
-} */
+#hero h2::first-letter{
+  font-family: "BD-Renaissance";
+  text-transform: uppercase;
+  display: block;
+  float: left;
+}
+#Orazio{
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+}
+#G{
+  position: relative;
+  z-index: 1;
+  animation: letterspacing1 linear 8s;
+}
+#v{
+    animation: letterspacing2 linear 10s;
+}
+#t{
+  animation: letterspacing1 linear 8s;
+}
+
+#m{
+    animation: letterspacing2 linear 10s;
+}
+#G::first-letter{
+  color: #AE5747;
+}
+#m::first-letter{
+  color: #F0AE49;
+}
+
+/* use this one to move from left to right direction */
+@keyframes letterspacing1{
+           0%{
+             transform: translateX(-50%);
+             letter-spacing: 30px;
+           }
+           55%{
+               transform: translateX(0);
+           }
+           75%{
+               letter-spacing: 10px;
+           }
+           85%{
+               letter-spacing: 15px;
+           }
+           100%{
+               letter-spacing: 2px;
+           }
+       }
+
+@keyframes letterspacing2 {
+             0%{
+               transform: translateX(50%);
+               letter-spacing: 40px;
+             }
+             55%{
+                 transform: translateX(0);
+             }
+             75%{
+                 letter-spacing: 10px;
+             }
+             85%{
+                 letter-spacing: 15px;
+             }
+             100%{
+                 letter-spacing: 2px;
+             }
+         }
+
+.musicscore{
+    max-width: 50%;
+    filter: sepia(40%);
+}
+.marquee-section {
+  margin-top: -20vh;
+}
 
 .marquee {
     white-space: nowrap;
@@ -443,7 +585,7 @@ span {
 
 .marquee-div {
     position: absolute;
-    animation: move-right-to-left linear 20s infinite;
+    animation: move-right-to-left linear 200s infinite;
 }
 
 /* use this one to move from left to right direction */
@@ -486,15 +628,13 @@ span {
 
 #hero .hero-container {
   position: relative;
-  bottom: 0;
   top: 10%;
-  left: 0;
+  bottom: 0;
+  left: 30%;
   right: 0;
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 #hero h1 {
@@ -514,30 +654,33 @@ span {
 }
 
 #hero h2 {
-  color: #777;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+/*  position: absolute;*/
+  font-size: 15vh;
 }
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 102px;
+    position: relative;
+    left: -69px;
+    top: -46px;
+  }
+  #Orazio{
+    position: absolute;
+    height: 98%;
+    bottom: -136px;
+    left: -82px;
+    z-index: 2;
   }
 }
 
-#hero img {
+/*#hero img {
   max-width: 20%;
   margin-bottom: 30px;
 }
+*/
 
-.musicscore{
-    max-width: inherit;
-    filter: sepia(40%);
-}
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -807,12 +950,14 @@ section {
 #musiciansfirst{
   background-color: #855c56;
 }
-
+#musiciansecond{
+  background-color: #121012;
+}
 #egg{
   background-color: #AE5648;
 }
 
-#flipimage{
+#fliptext3{
   background-color: #F8F5ED;
 }
 
@@ -855,7 +1000,7 @@ section {
   transform-style: preserve-3d;
 }
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+ .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -878,8 +1023,37 @@ section {
   transform: rotateY(180deg);
 }
 
+.textcard{
+  position: absolute;
+  left: 38%;
+  top: 40%;
+}
+.grid{
+  padding: 0;
+}
+@media (max-height: 992px) {
+  .grid {
+    padding: 0;
+    height: 55vh;
+    background: white;
+  }
+}
+
+#LutePlayerSing{
+  height: 54vh;
+}
+
+#LasciatemiMorire{
+  height: 54vh;
+}
+#ScaredPetrarch{
+  height: 40vh;
+  position: absolute;
+  left: 3%;
+  top: 15%;
+}
 #ConcertInTheEgg{
-  width: 350px;
+  height: 42vh;
 }
 
 #ConcertInTheEgg:hover{
@@ -1059,12 +1233,14 @@ section {
 --------------------------------*/
 #team .team-block {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  height: 254px;
+  /* height: 254px; */
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-
+#Consti, #Luisa{
+  height: 45vh;
+}
 @media (max-width: 991px) {
   #team .team-block {
     margin-bottom: 30px;
