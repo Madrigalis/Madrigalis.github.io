@@ -255,3 +255,15 @@
    */
 
 })()
+
+function reveal() {
+  var maskElement = document.getElementById("mask");
+  maskElement.classList.remove("covered");
+  maskElement.classList.add("revealed");
+}
+
+function cover() {
+  var maskElement = document.getElementById("mask");
+  maskElement.classList.remove("revealed");
+  maskElement.classList.add("covered");
+}
