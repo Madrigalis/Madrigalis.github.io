@@ -515,8 +515,9 @@ span {
 #G{
   position: relative;
   z-index: 1;
-  animation: letterspacing1 linear 5s;
+/*  animation: letterspacing1 linear 5s; */
 }
+/*
 #v{
     animation: letterspacing2 linear 8s;
 }
@@ -527,6 +528,7 @@ span {
 #m{
     animation: letterspacing2 linear 7s;
 }
+*/
 #G::first-letter{
   color: #AE5747;
 }
@@ -573,7 +575,7 @@ span {
              }
          }
 
-
+/* hand and mic for first scene
 #lefthand{
   position: absolute;
   animation: move-L-to-R linear 5s;
@@ -583,26 +585,20 @@ span {
   right: 0;
   animation: move-R-to-L linear 5s;
 }
-/* use this one to move from left to right direction */
+*/
 @keyframes move-L-to-R {
     from {
         transform: translateX(-50%);
+        transform: rotate(-32deg);
     }
     to {
         transform: translateX(0);
+        transform: rotate(-32deg);
     }
 }
 
-/* use this one to move from right to left direction */
-@keyframes move-R-to-L {
-    from {
-        transform: translateX(+50%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
 
+/*
 #mic{
   position: absolute;
   top: 0%;
@@ -610,6 +606,7 @@ span {
   transform: rotate(-14deg);
   animation: run-L-to-R linear 8s;
 }
+
 @keyframes run-L-to-R {
   0%{
     transform: translateX(-300%);
@@ -632,6 +629,87 @@ span {
       transform: rotate(-14deg);
       transform: translateX(0);
   }
+}
+*/
+@keyframes move-R-to-L {
+    from {
+        transform: translateX(+50%);
+
+    }
+    to {
+        transform: translateX(0);
+
+    }
+}
+@keyframes move-L-to-R {
+    from {
+        transform: translateX(-50%);
+
+    }
+    to {
+        transform: translateX(0);
+
+    }
+}
+@keyframes gestureright {
+  0%{
+    transform: rotate(30deg);
+  }
+  50%{
+    transform: rotate(25deg);
+  }
+  75%{
+    transform: rotate(20deg);
+  }
+  100%{
+      transform: rotate(30deg);
+  }
+}
+@keyframes gestureleft {
+  0%{
+    transform: rotate(-32deg);
+  }
+  50%{
+    transform: rotate(-20deg);
+  }
+  75%{
+    transform: rotate(-26deg);
+  }
+  100%{
+      transform: rotate(-32deg);
+  }
+}
+
+ #righthand{
+   position: absolute;
+  right: -8%;
+  bottom: 30%;
+  transform: rotate(30deg);
+/*  animation: move-R-to-L linear 3s; */
+  animation: gestureright linear 2s;
+  animation-iteration-count: 3;
+ }
+
+ #lefthand{
+   position: absolute;
+  bottom: 4%;
+  left: -9%;
+  transform: rotate(-32deg);
+  z-index: 1;
+  animation: gestureleft linear 2s;
+  animation-iteration-count: 2;
+/*  animation: move-L-to-R linear 3s; */
+ }
+
+#mic{
+  display: none;
+}
+
+#bacchetta{
+  position: absolute;
+  top: -4%;
+  right: 10%;
+  z-index: -1;
 }
 
   /*
@@ -708,11 +786,23 @@ overflow: hidden;
         transform: translateX(-50%);
     }
 }
+/* position per setting con microfono
 #hero .hero-container {
   position: relative;
   top: 10%;
   bottom: 0;
   left: 37%;
+  right: 0;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+*/
+#hero .hero-container{
+  position: relative;
+  top: 0%;
+  bottom: 0;
+  left: 30%;
   right: 0;
   justify-content: center;
   flex-direction: column;
