@@ -866,9 +866,9 @@ overflow: hidden;
 @media (min-width: 1025px) {
   #hero .hero-container {
     position: relative;
-    top: 10%;
+    top: 5%;
     bottom: 0;
-    left: 37%;
+    left: 35%;
     right: 0;
     justify-content: center;
     flex-direction: column;
@@ -1111,7 +1111,10 @@ section {
 #about-us img {
   max-width: 100%;
 }
-
+#about-us video {
+  max-width: 100%;
+  margin-top: 20%;
+}
 #about-us .about-content {
   padding-top: 60px;
 }
