@@ -162,6 +162,7 @@ span {
   transition: all 0.5s ease;
   /* padding: 20px 0; */
   writing-mode: vertical-lr;
+  opacity: 0;
 }
 #header::before{
   content: "";
@@ -624,11 +625,8 @@ span {
 
   }
   85%{
-    transform: rotate(-15deg);
+    transform: rotate(-14deg);
 
-  }
-  95%{
-    transform: rotate(0deg);
   }
   100%{
       transform: rotate(-14deg);
@@ -710,6 +708,16 @@ overflow: hidden;
         transform: translateX(-50%);
     }
 }
+#hero .hero-container {
+  position: relative;
+  top: 10%;
+  bottom: 0;
+  left: 37%;
+  right: 0;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
 
 @media (min-width: 1025px) {
   #hero {
@@ -728,17 +736,57 @@ overflow: hidden;
     height: 200vh;
   }
 }
-
-#hero .hero-container {
-  position: relative;
-  top: 10%;
-  bottom: 0;
-  left: 37%;
-  right: 0;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
+@media (max-width: 768px) {
+  #hero .hero-container {
+    position: relative;
+    top: 32%;
+    bottom: 0;
+    left: 33%;
+    right: 0;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2{
+    font-size: 60px;
+    line-height: 112%;
+    position: relative;
+    left: -69px;
+    top: -46px;
+  }
+  #righthand{
+    position: absolute;
+    right: -63px;
+    bottom: -22px;
+    width: 70%;
+    transform: rotate(45deg);
+  }
+  #lefthand{
+    position: absolute;
+    left: -33px;
+    top: 0px;
+    width: 60%;
+    transform: rotate(45deg);
+  }
+  #mic{
+    display: none;
+  }
 }
+@media (min-width: 1025px) {
+  #hero .hero-container {
+    position: relative;
+    top: 10%;
+    bottom: 0;
+    left: 37%;
+    right: 0;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -749,34 +797,6 @@ overflow: hidden;
   color: #AE5747;
 }
 
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#hero h2 {
-/*  position: absolute;*/
-  font-size: 15vh;
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 60px;
-    line-height: 102px;
-    position: relative;
-    left: -69px;
-    top: -46px;
-  }
-  #Orazio{
-    position: absolute;
-    height: 98%;
-    bottom: -136px;
-    left: -82px;
-    z-index: 2;
-  }
-}
 
 /*#hero img {
   max-width: 20%;
