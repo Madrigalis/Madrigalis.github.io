@@ -255,6 +255,12 @@
   document.getElementById("Luisa").addEventListener("mouseleave", function() {
     this.pause();
   });
+  document.getElementById("Ilaria").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("Ilaria").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   /**
    * Audio with mouseover
    */
