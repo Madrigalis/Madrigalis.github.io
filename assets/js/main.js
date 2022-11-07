@@ -273,4 +273,5 @@ function disappear(){
   document.getElementById("body").style.overflowY = "scroll";
   document.getElementById("lefthand").style.animation = "gestureleft linear 2s 2";
   document.getElementById("righthand").style.animation = "gestureright linear 2s 2";
+  document.getElementById("quartettoliuti").play();
 }
