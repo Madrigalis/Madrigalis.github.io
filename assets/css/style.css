@@ -161,8 +161,16 @@ span {
 
 #artemisia{
   position: fixed;
-  top: 14%;
-  right: 12%;
+  top: 2vh;
+  right: 2vh;
+  border-radius: 15px;
+}
+#Lorenzo{
+  height: 91vh;
+  position: fixed;
+  left: 2vh;
+  bottom: 2vh;
+  border-radius: 15px;
 }
 #textartemisia{
   font-family: "Questrial", sans-serif;
@@ -173,9 +181,9 @@ span {
   font-size: 20px;
   background-color: white;
   position: absolute;
-  left: 12%;
+  left: 31%;
   top: 14%;
-  width: 34%;
+  width: 36%;
   align-text: justify;
   padding: 3rem 3rem 6rem 3rem;
   border: 3px solid black;
@@ -194,8 +202,8 @@ span {
   box-shadow: 0 0 0 black;
   transition: all 0.2s;
   position: fixed;
-  left: 32%;
-  top: 68%;
+  left: 51%;
+  top: 74%;
 }
 
 .enterbutton:last-child {
