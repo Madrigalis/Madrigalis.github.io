@@ -213,10 +213,6 @@
       mirror: false
     })
   });
-  /** Disappearing first enter block
-  **/
-  function disappear() {}
-    document.getElementById("enterblock").style.opacity = "0";
   /**
    * Painting video with mouseover
    */
@@ -270,14 +266,9 @@
 
 })()
 
-function reveal() {
-  var maskElement = document.getElementById("mask");
-  maskElement.classList.remove("covered");
-  maskElement.classList.add("revealed");
-}
-
-function cover() {
-  var maskElement = document.getElementById("mask");
-  maskElement.classList.remove("revealed");
-  maskElement.classList.add("covered");
+/** Disappearing first enter block
+**/
+function disappear(){
+  document.getElementById("enterblock").style.opacity = "0";
+  document.getElementById("lefthand").style.animation = "gestureleft linear 2s 2";
 }

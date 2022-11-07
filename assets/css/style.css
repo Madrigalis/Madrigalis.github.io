@@ -718,60 +718,13 @@ button.enterbutton {
   left: -9%;
   transform: rotate(-32deg);
   z-index: 1;
-  animation: gestureleft linear 2s;
-  animation-iteration-count: 2;
-/*  animation: move-L-to-R linear 3s; */
+
  }
 
 #mic{
   display: none;
 }
 
-#bacchetta{
-  position: absolute;
-  top: -4%;
-  right: 10%;
-  z-index: -1;
-}
-
-  /*
-         .flower {
-           height: 20rem;
-           width: fit-content;
-           position: relative;
-           overflow: hidden;
-         }
-*/
-.flower{
-height: 20rem;
-width: fit-content;
-position: absolute;
-top: 0;
-left: -28%;
-overflow: hidden;
-}
-         .flower img {
-           height: 100%;
-         }
-
-         .flower #mask {
-           height: 100%;
-           width: 300%;
-           position: absolute;
-           left: -200%;
-           top: 0;
-           background-color: #fff;
-           transform-origin: top right;
-           transition: 5s;
-         }
-
-         .flower #mask.covered {
-           transform: rotate(0deg);
-         }
-
-         .flower #mask.revealed {
-           transform: rotate(-90deg);
-         }
 .musicscore{
     max-width: 50%;
     filter: sepia(40%);
