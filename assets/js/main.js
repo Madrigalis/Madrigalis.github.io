@@ -215,9 +215,8 @@
   });
   /** Disappearing first enter block
   **/
-  function disappear() {
+  function disappear() {}
     document.getElementById("enterblock").style.display = "none";
-  }
   /**
    * Painting video with mouseover
    */
