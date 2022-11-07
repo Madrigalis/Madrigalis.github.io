@@ -271,7 +271,7 @@
 function disappear(){
   document.getElementById("enterblock").style.display = "none";
   document.getElementById("body").style.overflowY = "scroll";
-  document.getElementById("lefthand").style.animation = "gestureleft linear 2s 2";
-  document.getElementById("righthand").style.animation = "gestureright linear 2s 2";
+  document.getElementById("lefthand").style.animation = "gestureleft linear 2s 3";
+  document.getElementById("righthand").style.animation = "gestureright linear 2s 3";
   document.getElementById("quartettoliuti").play();
 }
