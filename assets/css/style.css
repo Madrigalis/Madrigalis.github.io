@@ -19,6 +19,7 @@
 body {
   background-color: #fff;
   color: #333;
+  overflow-y: hidden;
 
 }
 
@@ -150,24 +151,65 @@ span {
 #enterblock {
     opacity: 1;
     z-index: 5;
-    position: absolute;
+    position: fixed;
+    top: 0;
     text-align: center;
     width: 100%;
     height: 100%;
-    background-color: darkslategray;
+    background-color: white;
 }
 
-button.enterbutton {
-    font-family: 'hardingreg';
-    font-size: 70%;
-    color: black;
-    font-size: 125%;
-    color: black;
-    text-decoration: none;
-    position: relative;
-    top: 50px;
-    cursor: pointer;
-    padding-bottom: 100px;
+#artemisia{
+  position: fixed;
+  top: 14%;
+  right: 12%;
+}
+#textartemisia{
+  font-family: "Questrial", sans-serif;
+  color: black;
+  font-weight: 300;
+  text-align: justify;
+  background-color: #ffec63;
+  font-size: 20px;
+  background-color: white;
+  position: absolute;
+  left: 12%;
+  top: 14%;
+  width: 34%;
+  align-text: justify;
+  padding: 3rem 3rem 6rem 3rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgb(0 0 0 / 20%);
+}
+.enterbutton {
+  color:inherit;
+  font-family:inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+  position: fixed;
+  left: 32%;
+  top: 68%;
+}
+
+.enterbutton:last-child {
+  margin: 0;
+}
+
+.enterbutton:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.enterbutton:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
 }
 /*--------------------------------------------------------------
 # Header
@@ -708,8 +750,6 @@ button.enterbutton {
   bottom: 30%;
   transform: rotate(30deg);
 /*  animation: move-R-to-L linear 3s; */
-  animation: gestureright linear 2s;
-  animation-iteration-count: 3;
  }
 
  #lefthand{
