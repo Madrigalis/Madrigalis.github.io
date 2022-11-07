@@ -216,7 +216,7 @@
   /** Disappearing first enter block
   **/
   function disappear() {}
-    document.getElementById("enterblock").style.display = "none";
+    document.getElementById("enterblock").style.opacity = "0";
   /**
    * Painting video with mouseover
    */
