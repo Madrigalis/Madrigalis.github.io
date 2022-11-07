@@ -213,7 +213,11 @@
       mirror: false
     })
   });
-
+  /** Disappearing first enter block
+  **/
+  function disappear() {
+    document.getElementById("enterblock").style.display = "none";
+  }
   /**
    * Painting video with mouseover
    */
