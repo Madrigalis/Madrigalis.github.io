@@ -229,7 +229,12 @@
   document.getElementById("LasciatemiMorire").addEventListener("mouseleave", function() {
   	this.pause();
   });
-
+  document.getElementById("monkey").addEventListener("mouseover", function() {
+  	this.play();
+  });
+  document.getElementById("monkey").addEventListener("mouseleave", function() {
+  	this.pause();
+  });
   document.getElementById("ScaredPetrarch").addEventListener("mouseover", function() {
     this.play();
   });
@@ -240,6 +245,12 @@
     this.play();
   });
   document.getElementById("rocking").addEventListener("mouseleave", function() {
+    this.pause();
+  });
+  document.getElementById("monteverdi").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("monteverdi").addEventListener("mouseleave", function() {
     this.pause();
   });
   document.getElementById("Consti").addEventListener("mouseover", function() {
@@ -274,4 +285,9 @@ function disappear(){
   document.getElementById("lefthand").style.animation = "gestureleft linear 2s 3";
   document.getElementById("righthand").style.animation = "gestureright linear 2s 3";
   document.getElementById("quartettoliuti").play();
+}
+
+/** Flip cards **/
+function flip(elid){
+  document.getElementById(elid).style.transform = "rotateY(180deg)";
 }

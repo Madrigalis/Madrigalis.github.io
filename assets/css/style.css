@@ -15,11 +15,18 @@
   src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff') format('woff');
   src: local('BD-Renaissance'), url('../font/BD-Renaissance.woff2') format('woff2');
 }
+@font-face {
+  font-family:'FoundersGrotesk-Light';
+  src: local('FoundersGrotesk-Light'), url('../font/FoundersGrotesk-Light.ttf') format('ttf');
+  src: local('FoundersGrotesk-Light'), url('../font/FoundersGrotesk-Light.woff') format('woff');
+  src: local('FoundersGrotesk-Light'), url('../font/FoundersGrotesk-Light.woff2') format('woff2');
+}
 
 body {
   background-color: #fff;
-  color: #333;
+  color: black;
   overflow-y: hidden;
+  font-family: "FoundersGrotesk-Light";
 
 }
 
@@ -34,7 +41,6 @@ h6 {
 
 h2 {
   color: #000;
-  font-weight: 600;
 }
 
 h4 {
@@ -76,7 +82,6 @@ li {
 }
 
 p {
-  color: #505050;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -156,22 +161,18 @@ span {
     text-align: center;
     width: 100%;
     height: 100%;
-    background-color: white;
 }
 
 #artemisia{
-  position: fixed;
-  top: 2vh;
-  right: 2vh;
-  border-radius: 15px;
+  width: 100%;
 }
 #Lorenzo{
-  height: 91vh;
+  height: 40vh;
   position: fixed;
   left: 2vh;
   bottom: 2vh;
-  border-radius: 15px;
 }
+
 #textartemisia{
   font-family: "Questrial", sans-serif;
   color: black;
@@ -312,7 +313,7 @@ span {
 /*  display: flex; */
   align-items: center;
   justify-content: space-between;
-  font-family: "Roboto", sans-serif;
+/*  font-family: "Roboto", sans-serif;*/
   font-size: 23px;
   color: #222;
   white-space: nowrap;
@@ -906,7 +907,7 @@ span {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Philosopher", sans-serif;
+/*  font-family: "Philosopher", sans-serif; */
   color: #AE5747;
 }
 
@@ -919,7 +920,7 @@ span {
 
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+/*  font-family: "Roboto", sans-serif; */
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -961,6 +962,10 @@ span {
 }
 
 /*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
 section {
@@ -978,7 +983,9 @@ section {
     padding-bottom: 40px;
   }
 }
-
+#title{
+  font-family: system-ui;
+}
 .section-title {
   margin-bottom: 80px;
 }
@@ -990,7 +997,7 @@ section {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+/*  font-family: "Roboto", sans-serif; */
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -1004,7 +1011,7 @@ section {
 
 .separator {
   color: #626262;
-  font-family: "Roboto", sans-serif;
+/*  font-family: "Roboto", sans-serif; */
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -1083,6 +1090,7 @@ section {
   display: inline-block;
   height: 100%;
   width: 100%;
+  background-color: #f8f5ec;
 }
 
 #get-started .feature-block {
@@ -1131,6 +1139,9 @@ section {
 
 /* About Us Section
 --------------------------------*/
+#about-us{
+  background-color: #f8f5ec;
+}
 #about-us img {
   max-width: 100%;
 }
@@ -1238,9 +1249,13 @@ section {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Do an horizontal flip when you move the mouse over the flip box container
  .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+*/
+#fliptext2:hover #flipPetrarch {
+ transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
@@ -1260,6 +1275,12 @@ section {
 /* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 3rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    /* line-height: 2; */
 }
 
 .textcard{
@@ -1273,7 +1294,7 @@ section {
 @media (max-height: 992px) {
   .grid {
     padding: 0;
-    height: 55vh;
+    height: 55vh; 
     background: white;
   }
 }
@@ -1283,48 +1304,32 @@ section {
 }
 
 #LasciatemiMorire{
-  height: 54vh;
-}
-#ScaredPetrarch{
-  height: 40vh;
+  height: 55vh;
+  right: 0;
   position: absolute;
-  left: 3%;
-  top: 15%;
 }
+#sfondoLasciatemiMorire{
+  background-image: url("../img/sfondonero.png");
+}
+
+#monteverdi{
+  width: 100%;
+}
+
+#ScaredPetrarch{
+  width: 100%;
+  padding-top: 5%;
+
+}
+
+#monkey{
+  height: inherit;
+}
+
 #ConcertInTheEgg{
-  height: 42vh;
+ width: 100%;
 }
 
-#ConcertInTheEgg:hover{
-  animation: rotate 2s linear;
-       }
-
-@keyframes rotate{
-           0%{
-               transform: rotate(0deg);
-           }
-           15%{
-               transform: rotate(15deg);
-           }
-           30%{
-               transform: rotate(-15deg);
-           }
-           45%{
-               transform: rotate(0deg);
-           }
-           60%{
-               transform: rotate(15deg);
-           }
-           75%{
-               transform: rotate(-15deg);
-           }
-           90%{
-               transform: rotate(0deg);
-           }
-           100%{
-               transform: rotate(10deg);
-           }
-       }
 
 /* Screenshots Section
 --------------------------------*/
@@ -1478,7 +1483,7 @@ section {
   width: 100%;
 }
 #Consti, #Luisa, #Ilaria{
-  height: 45vh;
+width: 100%;
 }
 @media (max-width: 991px) {
   #team .team-block {
@@ -1727,7 +1732,7 @@ section {
 #blog .block-blog .content-blog a.readmore {
   color: #505050;
   font-size: 12px;
-  font-weight: 600;
+
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 0;

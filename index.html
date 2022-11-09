@@ -59,12 +59,7 @@
 
   <!-- ======= Enter Section ======= -->
   <section id="enterblock">
-      <img id="artemisia" src="assets/img/artemisia.gif">
-      <video muted autoplay id="Lorenzo">
-        <source src="assets/video/LorenzoCosta.mp4"></video>
-      <div>
-      <p id="textartemisia">Welcome dear! Before starting I have to warn you! Level the volume of your device, making sure it’s not too high. Especially, if you enjoy wearing earphones like Artemisia or you're in a public library like Loresto Costa's friends, take care. You are going to live a visual and audible experience!<br>
-<b>TIP:</b> Navigate with the mouse over the paintings and let them recount their music. They’ve been silent for soooo long!</p>
+      <p id="textartemisia"> Before starting, adjust the volume of your device, making sure it’s not too high. You are going to live a visual and audible experience!</p>
       <div><button class="enterbutton" onclick="disappear()"><b>ENTER</b></button></div>
     </div>
   </section>
@@ -77,7 +72,7 @@
     <img id="mic" src="assets/img/micropho.png">
     <audio autoplay src="assets/sound/quartettoliuti.mp3" id="quartettoliuti"><source src="assets/sound/quartettoliuti.mp3" alt="Your browser does not support the audio element." type="audio/wav"></audio>
 
-    <div class="hero-container" data-aos="fade-in">
+    <div id="title" class="hero-container" data-aos="fade-in">
 
       <h2 id="G">Giving</h2>
       <h2 id="v">voice</h2>
@@ -98,37 +93,28 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
-          <div id="luteplayer" class="col-md-6 col-lg-3 grid">
+          <div id="luteplayer" class="col-md-6 col-lg-4 grid">
             <div class="feature-block nopadding">
-              <video id="LutePlayerSing" autoplay>
-                <source src="assets/video/LutePlayerSing.mp4" type="video/mp4">
-                </video>
+                <div class="feature-block">
+                  <img id="ConcertInTheEgg" src="assets/img/Concert_in_the_Egg.png" alt="img">
+                </div>
             </div>
           </div>
 
-
-          <div id="fliptext1" class="col-md-6 col-lg-3 grid flip-card">
-            <div class="feature-block flip-card-inner">
-              <div class="flip-card-front">
+          <div id="fliptext1" class="col-md-6 col-lg-4 grid flip-card">
+            <div id="flip1" class="feature-block flip-card-inner">
+              <div class="flip-card-front" onclick="flip('flip1')">
                 <h2 class="textcard">About</h2>
 
               </div>
-              <div class="flip-card-back">
-                <p>Where is the intellectual heritage of Italian art historians, and why? It was just a matter of curiosity. We found out later that someone seems underrepresented and some cities are overlooked. Even if the "why" is out of scope, we will try to show the "what". If you are interested, scroll down and come with us to explore Italy across its cultural Institutions!</p>
+              <div id="flip1b" class="flip-card-back" onclick="flip('flip1')">
+                <p>During the 16th-17th century, lyrics by the most influential Italian poets used to be set to music and played at courts for people’s entertainment. As during Renaissance words’ meaning was amplified by the power of these musical compositions, <i>Giving voice to Madrigals</i> is an attempt to draw attention to this musical genre through a visual data journey. </p>
               </div>
             </div>
           </div>
 
 
-
-          <div id="musiciansfirst" class="col-md-6 col-lg-3 grid">
-            <div class="feature-block">
-
-            </div>
-          </div>
-
-
-          <div id="musiciansecond" class="col-md-6 col-lg-3 grid">
+          <div id="sfondoLasciatemiMorire" class="col-md-6 col-lg-4 grid">
             <div class="feature-block nopadding">
               <video id="LasciatemiMorire" autoplay>
                 <source src="assets/video/LasciatemiMorire.mp4" type="video/mp4">
@@ -136,42 +122,33 @@
             </div>
           </div>
 
-          <div id="fliptext2" class="col-md-6 col-lg-3 flip-card grid">
-            <div class="feature-block flip-card-inner">
+          <div id="fliptext2" class="col-md-6 col-lg-4 flip-card grid">
+            <div id="flipPetrarch" class="feature-block flip-card-inner">
               <div class="flip-card-front">
                 <h2 class="textcard">Madrigals</h2>
-              </div>
-              <div class="flip-card-back">
-                <p>It is a genre of non-religious (secular) solo vocal music that became immensely popular in Europe in the 16th century and was created during the first half of the 17th century, particularly in Italy and England. Indeed, the madrigal was so popular that composers from all throughout Europe composed in it. Despite the fact that the Italians created so many improvements during the Renaissance (ca. 1450-1600), northern European composers "developed" the madrigal in Italy circa 1530, when the Italians were predominantly producing other secular kinds like as the frottola. The madrigal surpassed the frottola in capturing the attention of renowned composers; It undoubtedly gave them additional options for musical creativity and experimentation, and they were plainly anxious to produce a large number of madrigals.</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="egg" class="col-md-6 col-lg-3 grid">
-            <div class="feature-block">
-              <img id="ConcertInTheEgg" src="assets/img/ConcertInTheEgg.png" alt="img">
-            </div>
-          </div>
-
-          <div id="fliptext3" class="col-md-6 col-lg-3 flip-card grid">
-            <div class="feature-block flip-card-inner">
-              <div class="flip-card-front">
-                <h2 class="textcard">The Project</h2>
-              </div>
-              <div class="flip-card-back">
-                <p>Where is the intellectual heritage of Italian art historians, and why? It was just a matter of curiosity. We found out later that someone seems underrepresented and some cities are overlooked. Even if the "why" is out of scope, we will try to show the "what". If you are interested, scroll down and come with us to explore Italy across its cultural Institutions!</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="flipimage" class="col-md-6 col-lg-3 flip-card grid">
-            <div class="feature-block flip-card-inner">
-              <div class="flip-card-front">
               </div>
               <div class="flip-card-back">
                 <video id="ScaredPetrarch" autoplay>
                   <source src="assets/video/ScaredPetrarch.mp4" type="video/mp4">
                   </video>
+                </div>
+            </div>
+          </div>
+
+
+          <div id="" class="col-md-6 col-lg-4 grid">
+            <video id="monteverdi" autoplay data-aos="zoom-in" data-aos-delay="100">
+              <source src="assets/video/monteverdi.mp4" type="video/mp4">
+              </video>
+          </div>
+
+          <div id="fliptext3" class="col-md-6 col-lg-4 flip-card grid">
+            <div class="feature-block flip-card-inner">
+              <div class="flip-card-front">
+                <h2 class="textcard">The Project</h2>
+              </div>
+              <div class="flip-card-back">
+                <p><b>TIP:</b> Navigate with the mouse over the paintings and let them recount their music. They’ve been silent for soooo long!</p>
               </div>
             </div>
           </div>
@@ -250,7 +227,7 @@
 
     </section><!-- End Get Started Section -->
 
-    <!-- ======= About Us Section ======= -->
+    <!-- ======= About Us Section ROCKING ======= -->
     <section id="about-us" class="about-us padd-section">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
@@ -282,7 +259,77 @@
 
         </div>
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End About Us Section ROCKING-->
+
+    <video id="LutePlayerSing" autoplay>
+      <source src="assets/video/LutePlayerSing.mp4" type="video/mp4">
+      </video>
+    <!-- ======= About Us Section scimmia ======= -->
+    <section id="about-us" class="about-us padd-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+
+          <div class="col-md-5 col-lg-3">
+            <video id="monkey" autoplay>
+              <source src="assets/video/scimmiaplay.mp4" type="video/mp4">
+              </video>
+
+          </div>
+
+          <div class="col-md-7 col-lg-5">
+            <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+
+              <h2><span>eStartup</span>UI Design Mobile </h2>
+              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </p>
+
+              <ul class="list-unstyled">
+                <li><i class="vi bi-chevron-right"></i>Creative Design</li>
+                <li><i class="vi bi-chevron-right"></i>Retina Ready</li>
+                <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
+                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End About Us Section scimmia-->
+    <!-- ======= About Us Section Artemisia e Lorenzo ======= -->
+    <section id="about-us" class="about-us padd-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+
+          <div class="col-md-5 col-lg-3">
+            <img id="artemisia" src="assets/img/artemisia.gif">
+            <video muted autoplay id="Lorenzo">
+              <source src="assets/video/LorenzoCosta.mp4"></video>
+
+          </div>
+
+          <div class="col-md-7 col-lg-5">
+            <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+
+              <h2><span>eStartup</span>UI Design Mobile </h2>
+              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </p>
+
+              <ul class="list-unstyled">
+                <li><i class="vi bi-chevron-right"></i>Creative Design</li>
+                <li><i class="vi bi-chevron-right"></i>Retina Ready</li>
+                <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
+                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End About Us Section Artemisia e Lorenzo-->
 
 
     <!-- ======= Screenshots Section ======= -->
