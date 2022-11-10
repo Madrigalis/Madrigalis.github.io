@@ -27,7 +27,6 @@ body {
   color: black;
   overflow-y: hidden;
   font-family: "FoundersGrotesk-Light";
-
 }
 
 h1,
@@ -167,10 +166,8 @@ span {
   width: 100%;
 }
 #Lorenzo{
-  height: 40vh;
-  position: fixed;
-  left: 2vh;
-  bottom: 2vh;
+  position: relative;
+  width: 100%;
 }
 
 #textartemisia{
@@ -1232,8 +1229,43 @@ section {
 #noun{
   font-weight: bold;
 }
+#BL {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color: #f8f5ec;
+}
+
+#BL .feature-block {
+  background: none repeat scroll 0 0;
+/*  padding: 30px 20px;
+  margin-bottom: 30px; */
+  transition: all 0.5s ease-in-out 0s;
+}
+#BLgrid{
+    max-width: 100%;
+    margin: 0;
+}
+#BritishLibrary{
+  padding: 5%;
+  font-size: 15vh;
+  font-weight: 600;
+  padding: auto;
+  position: relative;
+  text-align: left;
+}
+#BritishLibrarydescription{
+  font-size: 3vh;
+  text-align: justify;
+  padding: 7%;
+  padding-top: 0;
+}
+#Lorenzobox{
+  padding: 0;
+}
 #features .feature-block img {
-/*  height: 60px; */
+/*  height: 60px; 
   margin-bottom: 30px;
 /*  width: 60px; */
 }
