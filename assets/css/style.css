@@ -169,7 +169,9 @@ span {
   position: relative;
   width: 100%;
 }
-
+#Female{
+  width: 100%;
+}
 #textartemisia{
   font-family: "Questrial", sans-serif;
   color: black;
@@ -1265,7 +1267,7 @@ section {
   padding: 0;
 }
 #features .feature-block img {
-/*  height: 60px; 
+/*  height: 60px;
   margin-bottom: 30px;
 /*  width: 60px; */
 }
@@ -1408,7 +1410,9 @@ section {
 #screenshots .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #AE5747;
 }
-
+.swiper-slide{
+  width: 5vw;
+}
 /* Video Section
 --------------------------------*/
 #video {

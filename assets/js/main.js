@@ -229,11 +229,23 @@
   document.getElementById("LasciatemiMorire").addEventListener("mouseleave", function() {
   	this.pause();
   });
+  document.getElementById("monteverdi").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("monteverdi").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   document.getElementById("monkey").addEventListener("mouseover", function() {
   	this.play();
   });
   document.getElementById("monkey").addEventListener("mouseleave", function() {
   	this.pause();
+  });
+  document.getElementById("ConcertInTheEgg").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("ConcertInTheEgg").addEventListener("mouseleave", function() {
+    this.pause();
   });
   document.getElementById("ScaredPetrarch").addEventListener("mouseover", function() {
     this.play();
@@ -241,16 +253,22 @@
   document.getElementById("ScaredPetrarch").addEventListener("mouseleave", function() {
     this.pause();
   });
+  document.getElementById("Caravaggio").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("Caravaggio").addEventListener("mouseleave", function() {
+    this.pause();
+  });
+  document.getElementById("Female").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("Female").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   document.getElementById("rocking").addEventListener("mouseover", function() {
     this.play();
   });
   document.getElementById("rocking").addEventListener("mouseleave", function() {
-    this.pause();
-  });
-  document.getElementById("monteverdi").addEventListener("mouseover", function() {
-    this.play();
-  });
-  document.getElementById("monteverdi").addEventListener("mouseleave", function() {
     this.pause();
   });
   document.getElementById("Consti").addEventListener("mouseover", function() {
