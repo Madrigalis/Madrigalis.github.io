@@ -1336,6 +1336,11 @@ section {
     text-align: justify;
     letter-spacing: 0.5px;
     /* line-height: 2; */
+    position: relative;
+    padding: 18%;
+    text-align: justify;
+    left: auto;
+    top: auto;
 }
 
 .textcard{
