@@ -152,6 +152,14 @@ span {
   opacity: 1;
 }
 /*---Enter Block ---*/
+#whitepanel{
+  background-color: white;
+  position: absolute;
+  left: 28%;
+  width: 55vw;
+  height: 93vh;
+  z-index: 0;
+}
 #enterblock {
     opacity: 1;
     z-index: 5;
@@ -225,26 +233,18 @@ span {
 #header {
   background: #F8F5ED;
   position: fixed;
-  width: 6vw;
-  height: 77vh;
-  top: 0;
-  /* right: 0; */
-  left: 92%;
-  /* z-index: 997; */
   transition: all 0.5s ease;
-  /* padding: 20px 0; */
-  writing-mode: vertical-lr;
-  opacity: 0;
-}
-#header::before{
-  content: "";
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  bottom: -40px;
-  border-left: 3vw solid #F8F5ED;
-  border-right: 3vw solid #F8F5ED;
-  border-bottom: 3vw solid transparent;
+  height: 8vh;
+  z-index: 10;
+      /* width: 6vw; */
+      /* height: 77vh; */
+      /* top: 0; */
+      /* right: 0; */
+      /* left: 92%; */
+      /* z-index: 997; */
+      /* padding: 20px 0; */
+      /* writing-mode: vertical-lr; */
+      /* opacity: 0; */
 }
 
 #header #logo h1 {
@@ -256,9 +256,7 @@ span {
 }
 
 #header #logo h1 a {
-  color: #555;
-  display: inline-block;
-  text-decoration: none;
+  display: none;
 }
 
 #header #logo h1 a span {
@@ -266,14 +264,31 @@ span {
 }
 
 #header #logo img {
-  padding: 0;
+  padding: 2%;
   margin: 0;
+  width: 25vh;
+  transform: rotate(-7deg);
+  background: white;
+  color: black;
+  box-shadow: 5px 5px 10px -3px rgb(0 0 0 / 20%);
+}
+#logo{
+  position: fixed;
+  right: 5%;
+  top: 1%;
 }
 
 #header.header-scrolled {
   background: #fff;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
+  height: 6vh;
+
+}
+#header.header-scrolled #logo h1 a {
+  color: #555;
+  display: inline-block;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +299,7 @@ span {
 */
 
 .navbar {
-    margin-top: 40%;
+/*    margin-top: 40%; */
 }
 
 .navbar ul {
@@ -459,12 +474,15 @@ span {
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }
-
+/*
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
-
+*/
+.mobile-nav-toggle{
+  display: block;
+}
   .navbar ul {
     display: none;
   }
@@ -553,7 +571,51 @@ span {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -755,8 +817,9 @@ span {
  #righthand{
    position: absolute;
   right: -8%;
-  bottom: 30%;
+  bottom: 27%;
   transform: rotate(30deg);
+  z-index: 5;
 /*  animation: move-R-to-L linear 3s; */
  }
 
@@ -823,13 +886,14 @@ display: none;
 */
 #hero .hero-container{
   position: relative;
-  top: 0%;
+  top: 5%;
   bottom: 0;
   left: 30%;
   right: 0;
   justify-content: center;
   flex-direction: column;
   text-align: left;
+
 }
 
 @media (min-width: 1025px) {
@@ -984,7 +1048,21 @@ section {
 }
 #title{
   font-family: system-ui;
+  opacity: 1;
 }
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  90%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .section-title {
   margin-bottom: 80px;
 }
@@ -1223,6 +1301,7 @@ section {
   padding: auto;
   position: relative;
 }
+
 #madrigaldefinition{
   font-size: 3vh;
   text-align: justify;
@@ -1395,6 +1474,10 @@ section {
 
 #Caravaggiobox{
   padding: 0;
+}
+/* Interactive container */
+#interactiveimage{
+  width: 100%;
 }
 
 /* Screenshots Section

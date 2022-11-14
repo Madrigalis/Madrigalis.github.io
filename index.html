@@ -29,13 +29,21 @@
 </head>
 
 <body id="body">
+  <!--Sidepanel -->
+  <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div id="logo">
-        <h1><a href="index.html"><span>m</span>adrigals</a></h1>
+        <h1><a href="index.html"><img id="GVTLlogo" src="assets/img/logo.png" alt="png image"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -50,7 +58,7 @@
           <li><a class="nav-link scrollto" href="#pricing">&#x25cf;</a></li>
           <li><a class="nav-link scrollto" href="#team">&#x25cf;<span class="label">Team</span></a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle" class="openbtn" onclick="openNav()">Index</i>
       </nav><!-- .navbar -->
 
     </div>
@@ -59,6 +67,7 @@
 
   <!-- ======= Enter Section ======= -->
   <section id="enterblock">
+    <p id="whitepanel"></p>
       <p id="textartemisia"> Before starting, adjust the volume of your device, making sure it’s not too high. You are going to live a visual and audible experience!</p>
       <div><button class="enterbutton" onclick="disappear()"><b>ENTER</b></button></div>
     </div>
@@ -70,7 +79,7 @@
     <img id="lefthand" src="assets/img/lefthand.png">
     <img id="righthand" rotate(30deg) src="assets/img/righthand2.png">
     <img id="mic" src="assets/img/micropho.png">
-    <audio autoplay src="assets/sound/quartettoliuti.mp3" id="quartettoliuti"><source src="assets/sound/quartettoliuti.mp3" alt="Your browser does not support the audio element." type="audio/wav"></audio>
+    <audio autoplay src="assets/sound/quartettoliuti2.mp3" id="quartettoliuti"><source src="assets/sound/quartettoliuti2.mp3" alt="Your browser does not support the audio element." type="audio/wav"></audio>
 
     <div id="title" class="hero-container" data-aos="fade-in">
 
@@ -151,7 +160,7 @@
                 <h2 class="textcard">The Project</h2>
               </div>
               <div id="flip1c" class="flip-card-back" onclick="flip('flip1c')">
-                <p>This project was undertaken for the Electronic Publishing and Digital Storytelling (a.y. 2021-2022) final examination, as part of the Digital Humanities and Digital Knowledge Master's Degree at the University of Bologna. 
+                <p>This project was undertaken for the Electronic Publishing and Digital Storytelling (a.y. 2021-2022) final examination, as part of the Digital Humanities and Digital Knowledge Master's Degree at the University of Bologna.
               </p>
                 </div>
             </div>
@@ -305,6 +314,11 @@
 <section id="timeline">
   <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1oXtbcpy2SD0CBSGjiSfayOxdXWb2jEBWftOGyAnBhkI&font=Default&lang=en&initial_zoom=2&start_at_slide=5&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
   </section>
+
+  <!-- ======= Interactive Image Section ======= -->
+    <div id="interactivecontainer" data-aos="fade-up">
+      <img id="interactiveimage" src="assets/img/Gerald.png" alt="img">
+    </div>
 
     <!-- ======= Get Started Section ======= -->
     <section id="get-started" class="padd-section text-center">

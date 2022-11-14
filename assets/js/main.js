@@ -299,13 +299,23 @@
 **/
 function disappear(){
   document.getElementById("enterblock").style.display = "none";
+  document.getElementById("whitepanel").style.display = "none";
   document.getElementById("body").style.overflowY = "scroll";
-  document.getElementById("lefthand").style.animation = "gestureleft linear 2s 3";
-  document.getElementById("righthand").style.animation = "gestureright linear 2s 3";
+  document.getElementById("lefthand").style.animation = "gestureleft linear 2s 2";
+  document.getElementById("righthand").style.animation = "gestureright linear 2s 2";
+  document.getElementById("title").style.animation = "show 5s";
   document.getElementById("quartettoliuti").play();
 }
 
 /** Flip cards **/
 function flip(elid){
   document.getElementById(elid).style.transform = "rotateY(180deg)";
+}
+/** Open sidebar **/
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "35%";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
 }
