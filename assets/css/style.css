@@ -118,7 +118,14 @@ span {
   text-decoration: none;
   font-size: 13px;
 }
-
+/*---BUTTON---*/
+button{
+  border: 0;
+  background-color: inherit;
+}
+ul{
+    list-style: none;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1476,10 +1483,132 @@ section {
   padding: 0;
 }
 /* Interactive container */
+#didyouknow{
+  font-size: 15vh;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  writing-mode: tb;
+}
 #interactiveimage{
-  width: 100%;
+  width: 90%;
+}
+#pointcomic{
+  position: absolute;
+  top: 10vh;
+}
+.icon-hotspot {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon-hotspot::before, .icon-hotspot::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+  }
+.icon-hotspot::after {
+    background: mediumvioletred;
+    width: 12px;
+    height: 12px;
+    margin: -6px;
+    transform: scale(.66667);
+    transition: transform .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.icon-hotspot::before{
+    border: 2px solid #fff;
+    height: 28px;
+    width: 28px;
+    margin: -14px;
+    transform: scale(.78571);
+    animation: hotspot 1.5s linear infinite;
+}
+@keyframes hotspot {
+  0% {
+    transform: scale(0.78571);
+  }
+  50%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(0.78571);
+  }
+}
+.icon-hotspot:hover::after{
+  width: 15px;
+  height: 15px;
+  margin: -7px;
 }
 
+#liuto{
+  position: relative;
+  top: 50vh;
+  right: -68vw;
+}
+#femaleinfo{
+  position: relative;
+  top: 5vh;
+  right: -50vw;
+}
+#placeholder{
+  position: relative;
+  top: 30vh;
+  left: 31vw;
+}
+#voice{
+  position: relative;
+  top: 40vh;
+  left: 10vw;
+}
+#court{
+  position: relative;
+  top: -17vh;
+  left: 12vw;
+}
+#funny{
+  position: relative;
+  top:-5vh;
+  right: -80vw;
+}
+.popup--bottom-right{
+  margin-left: 48px;
+  left: 100%;
+  margin-top: -20px;
+  top: 0;
+  transform: translateX(-10px) translateY(0);
+}
+.popup--bottom-left::after {
+  top: 20px;
+  border-width: 19px 24px 0 0;
+  border-color: #F8F5ED transparent transparent;
+  left: 100%;
+  }
+.popup{
+  background-color: rgba(255,255,255,0.9);
+  width: 248px;
+  padding: 12px 15px;
+}
+.popup::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: transform .3s cubic-bezier(0.5, 0, 0.2, 1);
+    transform-origin: top center;
+}
+#liutotext{
+  position: relative;
+  top: 45vh;
+  left: 49vw;
+  opacity: 0;
+}
 /* Screenshots Section
 --------------------------------*/
 #screenshots .swiper-pagination {

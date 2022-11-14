@@ -311,6 +311,9 @@ function disappear(){
 function flip(elid){
   document.getElementById(elid).style.transform = "rotateY(180deg)";
 }
+function displayComic(){
+  document.getElementById("liutotext").style.opacity = "1";
+}
 /** Open sidebar **/
 function openNav() {
   document.getElementById("mySidepanel").style.width = "35%";
