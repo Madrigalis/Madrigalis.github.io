@@ -26,6 +26,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- jQuery -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
+
+
 </head>
 
 <body id="body">
@@ -60,7 +66,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle" class="openbtn" onclick="openNav()">Index</i>
       </nav><!-- .navbar -->
-
+      <div id="overlaypanel"></div>
     </div>
   </header>
   <!-- End Header -->
@@ -320,14 +326,24 @@
       <h1 id="didyouknow">Did you know...</h1>
       <img id="interactiveimage" src="assets/img/Gerald.png" alt="img">
       <ul id="pointcomic">
-        <li><button id="liuto" onclick="displayComic()" ><i class="icon-hotspot"></i></button>
+        <li>
+          <button id="liuto" ><i class="icon-hotspot"></i></button>
           <div id="liutotext" class="hotspot__popup popup popup--bottom-left">
             <p>Scrivi qualcosa sul Liuto</p>
           </div>
         </li>
         <li><button id="femaleinfo"><i class="icon-hotspot"></i></button></li>
+        <div id="femaletext" class="hotspot__popup popup popup--bottom-right">
+          <p>Much like <span class="color">Polish</span>, the word <span class="color">national</span> was a clear sign of patriotism which could not be tolerated by the censors’ pen. </p>
+        </div>
         <li><button id="placeholder"><i class="icon-hotspot"></i></button></li>
+          <div id="placetext" class="hotspot__popup popup popup--top-right">
+            <p>Censors were on the lookout for any mention of <span class="color">traditional Polish customs and culture</span>, including elements of national music (e.g. the polonaise) or even traditional dress (e.g. the kontusz).</p>
+          </div>
         <li><button id="voice"><i class="icon-hotspot"></i></button></li>
+        <div id="voicetext" class="hotspot__popup popup popup--bottom-right">
+          <p>Much like <span class="color">Polish</span>, the word <span class="color">national</span> was a clear sign of patriotism which could not be tolerated by the censors’ pen. </p>
+        </div>
         <li><button id="court"><i class="icon-hotspot"></i></button></li>
         <li><button id="funny"><i class="icon-hotspot"></i></button></li>
       </ul>
@@ -487,27 +503,6 @@
       </div>
     </section><!-- End About Us Section Artemisia e Lorenzo-->
 
-    <!-- ======= Screenshots Section ======= -->
-    <section id="screenshots" class="padd-section text-center">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>App Gallery</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-        </div>
-
-        <div class="screens-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/Caravaggio-I-musici.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/Caravaggio-I-musici.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/Caravaggio-I-musici.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/Caravaggio-I-musici.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-    </section><!-- End Screenshots Section -->
 
     <!-- ======= Screenshots Section ======= -->
     <section id="screenshots" class="padd-section text-center">
@@ -541,7 +536,7 @@
         <div class="container-fluid container-full" data-aos="zoom-in">
 
           <div class="row">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q&feature=emb_title" class="glightbox play-btn"></a>
+            <a href="https://www.youtube.com/watch?v=P8rfalzuAtU" class="glightbox play-btn"></a>
           </div>
 
         </div>
@@ -846,72 +841,6 @@
       </div>
     </section><!-- End Newsletter Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="padd-section">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>Contact</h2>
-          <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -1011,6 +940,7 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1020,6 +950,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
 </body>
 

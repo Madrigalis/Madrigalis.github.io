@@ -20,6 +20,7 @@
     }
   }
 
+
   /**
    * Easy event listener function
    */
@@ -311,14 +312,32 @@ function disappear(){
 function flip(elid){
   document.getElementById(elid).style.transform = "rotateY(180deg)";
 }
-function displayComic(){
-  document.getElementById("liutotext").style.opacity = "1";
-}
-/** Open sidebar **/
+
+// Dispay info comics
+$(document).ready(function(){
+  $("#liuto").click(function(){
+    $("#liutotext").slideToggle("fast");
+  });
+  $("#femaleinfo").click(function(){
+    $("#femaletext").slideToggle("fast");
+  });
+  $("#placeholder").click(function(){
+    $("#placetext").slideToggle("fast");
+  });
+  $("#voice").click(function(){
+    $("#voicetext").slideToggle("fast");
+  });
+
+});
+
+/** Open and Close sidebar **/
 function openNav() {
   document.getElementById("mySidepanel").style.width = "35%";
+  document.getElementById("overlaypanel").className = "overlay";
+  document.getElementById("body").style.overflowY = "hidden";
 }
-
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("overlaypanel").classList.remove('overlay');
+  document.getElementById("body").style.overflowY = "scroll";
 }
