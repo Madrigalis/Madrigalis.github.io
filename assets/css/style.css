@@ -1467,30 +1467,23 @@ section {
   background-image: url("../img/sfondonero.png");
 }
 
-#monteverdi{
-  width: 100%;
-}
-
 #ScaredPetrarch{
   width: 100%;
   padding-top: 5%;
-
 }
 
 #monkey{
   height: inherit;
 }
 
-#ConcertInTheEgg{
+#ConcertInTheEgg, #Caravaggio, #monteverdi{
  width: 100%;
 }
-#Caravaggio{
-  width: 100%;
-}
 
-#Caravaggiobox{
+#Caravaggiobox, #Femalebox{
   padding: 0;
 }
+
 /* Interactive container */
 #didyouknow{
   font-size: 15vh;
