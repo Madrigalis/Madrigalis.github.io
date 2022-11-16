@@ -26,6 +26,7 @@ body {
   background-color: #fff;
   color: black;
   overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "FoundersGrotesk-Light";
 }
 
@@ -847,7 +848,6 @@ ul{
 
 .musicscore{
     max-width: 50%;
-    filter: sepia(40%);
 }
 .marquee-section {
  /*display: none; */
@@ -1043,6 +1043,7 @@ section {
 .padd-section {
   padding-bottom: 80px;
   padding-top: 80px;
+  margin: -2vh 0;
 }
 
 @media (max-width: 992px) {
@@ -1477,6 +1478,9 @@ section {
 }
 
 /*TIMELINE*/
+#note-timeline{
+
+}
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
