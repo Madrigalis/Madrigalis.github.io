@@ -621,7 +621,7 @@ jQuery(document).ready(function($){
 });
 /**fine timeline**/
 
-/** Slider Infographic **/
+/** Slider Infographic COMPOSER**/
 $(function() {
   const $slides = $('.slides');
    const margin = 44
@@ -679,6 +679,192 @@ $(function() {
   })
   $btnPrev.click(function() {
       let index = $('.slides.active').index()
+      calcMoveAmount(index, '-')
+  })
+});
+
+/** Slider Infographic PUBLISHERS**/
+$(function() {
+  const $slides = $('.slides2');
+   const margin = 44
+  const $slideWidth = $($slides[0]).width()
+  const $slideOverallWidth = $slideWidth + margin
+  const $sliderWrapper = $('.slider-wrapper2')
+  const $slidesWrapper = $('.slides-wrapper2');
+  const $btnNext = $('.btn-next2')
+  const $btnPrev = $('.btn-prev2')
+
+
+  const slidesWrapperWidth = () => {
+    let slidesAmount = $slides.length
+    let overallWidth = $slideWidth * slidesAmount
+    $slidesWrapper.css('width', (overallWidth + margin * slidesAmount - 1))
+  }
+
+  const sliderWrapperWidth = () => {
+    $sliderWrapper.css('width', $slideWidth + margin)
+  }
+  const calcMoveAmount = (index, type) => {
+    let isNext = type === '+'
+    let pastAmount = index * $slideOverallWidth
+    let newAmount
+    let newIndex
+    if (!isNext && index === 0) {
+      newAmount = 0
+      newIndex = 0
+    } else if (isNext && index === $slides.length - 1) {
+      newAmount = pastAmount
+      newIndex = index
+    } else {
+      newAmount = isNext ? pastAmount + $slideOverallWidth : pastAmount - $slideOverallWidth
+      newIndex = isNext ? index + 1 : index - 1;
+    }
+    let parallaxAmount = newIndex / $slides.length * 100
+    $slides.find('.img-wrapper2').css({
+      'background-position': `${parallaxAmount}% 50%`
+    })
+    $slides.removeClass('active to-right to-left')
+    $($slides[newIndex]).addClass(`active`)
+    return moveSliderBy(newAmount)
+  }
+
+  const moveSliderBy = amount => {
+    $slidesWrapper.css('transform', `translate3d(-${amount}px, 0, 0)`)
+
+  }
+  sliderWrapperWidth()
+  slidesWrapperWidth()
+
+  $btnNext.click(function() {
+      let index = $('.slides2.active').index()
+      calcMoveAmount(index, '+')
+  })
+  $btnPrev.click(function() {
+      let index = $('.slides2.active').index()
+      calcMoveAmount(index, '-')
+  })
+});
+
+/** Slider Infographic TEXTS/BOOKS**/
+$(function() {
+  const $slides = $('.slides3');
+   const margin = 44
+  const $slideWidth = $($slides[0]).width()
+  const $slideOverallWidth = $slideWidth + margin
+  const $sliderWrapper = $('.slider-wrapper3')
+  const $slidesWrapper = $('.slides-wrapper3');
+  const $btnNext = $('.btn-next3')
+  const $btnPrev = $('.btn-prev3')
+
+
+  const slidesWrapperWidth = () => {
+    let slidesAmount = $slides.length
+    let overallWidth = $slideWidth * slidesAmount
+    $slidesWrapper.css('width', (overallWidth + margin * slidesAmount - 1))
+  }
+
+  const sliderWrapperWidth = () => {
+    $sliderWrapper.css('width', $slideWidth + margin)
+  }
+  const calcMoveAmount = (index, type) => {
+    let isNext = type === '+'
+    let pastAmount = index * $slideOverallWidth
+    let newAmount
+    let newIndex
+    if (!isNext && index === 0) {
+      newAmount = 0
+      newIndex = 0
+    } else if (isNext && index === $slides.length - 1) {
+      newAmount = pastAmount
+      newIndex = index
+    } else {
+      newAmount = isNext ? pastAmount + $slideOverallWidth : pastAmount - $slideOverallWidth
+      newIndex = isNext ? index + 1 : index - 1;
+    }
+    let parallaxAmount = newIndex / $slides.length * 100
+    $slides.find('.img-wrapper').css({
+      'background-position': `${parallaxAmount}% 50%`
+    })
+    $slides.removeClass('active to-right to-left')
+    $($slides[newIndex]).addClass(`active`)
+    return moveSliderBy(newAmount)
+  }
+
+  const moveSliderBy = amount => {
+    $slidesWrapper.css('transform', `translate3d(-${amount}px, 0, 0)`)
+
+  }
+  sliderWrapperWidth()
+  slidesWrapperWidth()
+
+  $btnNext.click(function() {
+      let index = $('.slides3.active').index()
+      calcMoveAmount(index, '+')
+  })
+  $btnPrev.click(function() {
+      let index = $('.slides3.active').index()
+      calcMoveAmount(index, '-')
+  })
+});
+
+/** Slider Infographic VOICES**/
+$(function() {
+  const $slides = $('.slides4');
+   const margin = 44
+  const $slideWidth = $($slides[0]).width()
+  const $slideOverallWidth = $slideWidth + margin
+  const $sliderWrapper = $('.slider-wrapper4')
+  const $slidesWrapper = $('.slides-wrapper4');
+  const $btnNext = $('.btn-next4')
+  const $btnPrev = $('.btn-prev4')
+
+
+  const slidesWrapperWidth = () => {
+    let slidesAmount = $slides.length
+    let overallWidth = $slideWidth * slidesAmount
+    $slidesWrapper.css('width', (overallWidth + margin * slidesAmount - 1))
+  }
+
+  const sliderWrapperWidth = () => {
+    $sliderWrapper.css('width', $slideWidth + margin)
+  }
+  const calcMoveAmount = (index, type) => {
+    let isNext = type === '+'
+    let pastAmount = index * $slideOverallWidth
+    let newAmount
+    let newIndex
+    if (!isNext && index === 0) {
+      newAmount = 0
+      newIndex = 0
+    } else if (isNext && index === $slides.length - 1) {
+      newAmount = pastAmount
+      newIndex = index
+    } else {
+      newAmount = isNext ? pastAmount + $slideOverallWidth : pastAmount - $slideOverallWidth
+      newIndex = isNext ? index + 1 : index - 1;
+    }
+    let parallaxAmount = newIndex / $slides.length * 100
+    $slides.find('.img-wrapper').css({
+      'background-position': `${parallaxAmount}% 50%`
+    })
+    $slides.removeClass('active to-right to-left')
+    $($slides[newIndex]).addClass(`active`)
+    return moveSliderBy(newAmount)
+  }
+
+  const moveSliderBy = amount => {
+    $slidesWrapper.css('transform', `translate3d(-${amount}px, 0, 0)`)
+
+  }
+  sliderWrapperWidth()
+  slidesWrapperWidth()
+
+  $btnNext.click(function() {
+      let index = $('.slides4.active').index()
+      calcMoveAmount(index, '+')
+  })
+  $btnPrev.click(function() {
+      let index = $('.slides4.active').index()
       calcMoveAmount(index, '-')
   })
 });
