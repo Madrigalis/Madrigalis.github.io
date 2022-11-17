@@ -1314,11 +1314,13 @@ section {
 #madrigaldefinition{
   font-size: 3vh;
   text-align: justify;
-  padding: 7%;
+  padding: 5%;
 }
+
 #noun{
   font-weight: bold;
 }
+
 #BL {
   display: inline-block;
   height: 100%;
@@ -1475,6 +1477,12 @@ section {
 
 #ConcertInTheEgg, #Caravaggio, #monteverdi{
  width: 100%;
+}
+
+.paragraph{
+  font-size: 3vh;
+  text-align: justify;
+  padding: 0 7%;
 }
 
 #Caravaggiobox, #Femalebox{
@@ -2129,28 +2137,8 @@ section {
 .card-content {
     margin-top: 250px;
 }
+/* publisher map */
 
-/* Screenshots Section
---------------------------------*/
-#screenshots .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-#screenshots .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #AE5747;
-}
-
-#screenshots .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #AE5747;
-}
-.swiper-slide{
-  width: 5vw;
-}
 /* Video Section
 --------------------------------*/
 #video {
