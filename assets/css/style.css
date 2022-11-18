@@ -1484,6 +1484,12 @@ section {
   text-align: justify;
   padding: 0 7%;
 }
+#whyparagraph{
+  padding: 5% 2% 5% 5%;
+}
+#whytitle{
+  padding-top: 10%;
+}
 
 #Caravaggiobox, #Femalebox{
   padding: 0;
@@ -1514,6 +1520,8 @@ section {
 .cd-horizontal-timeline.loaded {
   /* show the timeline after events position has been set (using JavaScript) */
   opacity: 1;
+  min-height: 70vh;
+  max-height: 70vh;
 }
 .cd-horizontal-timeline .timeline {
   position: relative;
@@ -1743,6 +1751,8 @@ section {
   position: relative;
   z-index: 2;
   opacity: 1;
+  min-height: 40vh;
+  max-height: 40vh;
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -1783,20 +1793,21 @@ section {
   content: '- ';
 }
 .cd-horizontal-timeline .events-content p {
-  font-size: 1.4rem;
+  font-size: 3vh;
+  text-align: justify;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
-  line-height: 1.6;
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: 1.8rem;
+    font-size: 3vh;
+    text-align: justify;
   }
 }
 
