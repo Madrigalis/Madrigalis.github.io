@@ -302,6 +302,7 @@ function closeNav() {
   document.getElementById("overlaypanel").classList.remove('overlay');
   document.getElementById("body").style.overflowY = "scroll";
 }
+
 /*Timeline*/
 jQuery(document).ready(function($){
 	var timelines = $('.cd-horizontal-timeline'),
