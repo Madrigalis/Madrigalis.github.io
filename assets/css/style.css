@@ -1460,21 +1460,11 @@ section {
 @media (max-height: 992px) {
   .grid {
     padding: 0;
-    height: 55vh;
+/*    height: 70vh; */
     background: white;
   }
 }
 
-.grid{
-  padding: 0;
-}
-@media (max-height: 992px) {
-  .grid {
-    padding: 0;
-    height: 70vh;
-    background: white;
-  }
-}
 
 #LutePlayerSing{
   height: 54vh;
