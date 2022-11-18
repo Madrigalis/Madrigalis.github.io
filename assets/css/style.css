@@ -192,12 +192,24 @@ ul{
   left: auto;
   top: auto;
 }
+
 #artemisia{
   width: 100%;
 }
+
 #Lorenzo{
   position: relative;
+  top: -6vh;
   width: 100%;
+}
+
+#Lorenzoarea{
+  height: 70vh;
+}
+#rocking{
+  height: 70vh;
+    position: relative;
+    margin: -3vh;
 }
 #Female{
   width: 100%;
@@ -1449,6 +1461,17 @@ section {
   .grid {
     padding: 0;
     height: 55vh;
+    background: white;
+  }
+}
+
+.grid{
+  padding: 0;
+}
+@media (max-height: 992px) {
+  .grid {
+    padding: 0;
+    height: 70vh;
     background: white;
   }
 }
