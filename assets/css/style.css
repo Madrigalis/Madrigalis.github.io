@@ -208,8 +208,8 @@ ul{
 }
 #rocking{
   height: 70vh;
-    position: relative;
-    margin: -3vh;
+  position: relative;
+  margin: -3vh;
 }
 #Female{
   width: 100%;
@@ -1322,7 +1322,10 @@ section {
   padding: auto;
   position: relative;
 }
-
+#datatitle{
+  padding: 5%;
+  text-align: left;
+}
 #madrigaldefinition{
   font-size: 3vh;
   text-align: justify;
@@ -2439,7 +2442,7 @@ width: 100%;
 /* Newsletter Section
 --------------------------------*/
 #newsletter {
-  background: rgba(0, 0, 0, 0) url(../img/newsletter-bg.jpg) no-repeat center top fixed;
+  background: rgba(0, 0, 0, 0) url(../img/sorano.png) no-repeat center top fixed;
   background-size: cover;
 }
 
