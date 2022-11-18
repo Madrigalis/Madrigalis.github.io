@@ -273,10 +273,6 @@ function disappear(){
   document.getElementById("quartettoliuti").play();
 }
 
-/** Flip cards **/
-function flip(elid){
-  document.getElementById(elid).style.transform = "rotateY(180deg)";
-}
 
 // Dispay info comics
 $(document).ready(function(){
