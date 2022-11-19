@@ -182,12 +182,6 @@
   /**
    * Painting video with mouseover
    */
-  document.getElementById("LutePlayerSing").addEventListener("mouseover", function() {
-  	this.play();
-  });
-  document.getElementById("LutePlayerSing").addEventListener("mouseleave", function() {
-  	this.pause();
-  });
 
   document.getElementById("LasciatemiMorire").addEventListener("mouseover", function() {
   	this.play();
@@ -273,6 +267,10 @@ function disappear(){
   document.getElementById("quartettoliuti").play();
 }
 
+/** Flip cards **/
+function flip(elid){
+  document.getElementById(elid).style.transform = "rotateY(180deg)";
+}
 
 // Dispay info comics
 $(document).ready(function(){
