@@ -220,7 +220,7 @@ ul{
   height: 70vh;
 }
 #rocking{
-  height: 70vh;
+  width: 100%;
   position: relative;
   margin: -3vh;
 }
@@ -2054,6 +2054,21 @@ iframe{
   left: 35vw;
   bottom: -14vh;
   display: none;
+}
+/*Conclusion-*/
+#conclusion{
+  height: 90vh;
+}
+#sowhat{
+  font-size: 15vh;
+  font-weight: 600;
+  padding: 0 5%;
+}
+#conclusionparagraph{
+  column-count: 2;
+}
+#conclusiondiv, #rockingdiv{
+  display: inline-inline-block;
 }
 
 /* Slider Infographic -------------------*/
