@@ -222,8 +222,8 @@ ul{
 #rocking{
   width: 100%;
   position: relative;
-  margin: -3vh;
 }
+
 #Female{
   width: 100%;
 }
@@ -1873,7 +1873,7 @@ section {
 /* iFrame visualization*/
 
 iframe{
-  display: block;
+  background-size: contain;
   margin: 0 auto;
 }
 
@@ -2068,9 +2068,11 @@ iframe{
   column-count: 2;
 }
 #conclusiondiv, #rockingdiv{
-  display: inline-inline-block;
+  display: inline-block;
 }
-
+#rockingdiv{
+  width: 30%;
+}
 /* Slider Infographic -------------------*/
 
 .slider-wrapper {
@@ -2289,6 +2291,7 @@ iframe{
   font-size: 15vh;
   font-weight: 600;
   position: relative;
+  margin-top: 5%;
 }
 #Consti, #Luisa, #Ilaria{
 width: 100%;

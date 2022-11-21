@@ -222,6 +222,12 @@
   document.getElementById("Female").addEventListener("mouseleave", function() {
     this.pause();
   });
+  document.getElementById("rocking").addEventListener("mouseover", function() {
+    this.play();
+  });
+  document.getElementById("rocking").addEventListener("mouseleave", function() {
+    this.pause();
+  });
   document.getElementById("Consti").addEventListener("mouseover", function() {
     this.play();
   });
