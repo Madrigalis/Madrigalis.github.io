@@ -5,9 +5,17 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 (function() {
   "use strict";
-
+  
+  if (history.scrollRestoration) {
+      history.scrollRestoration = 'manual';
+  } else {
+      window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+      }
+  }
   /**
    * Easy selector helper function
    */
