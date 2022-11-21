@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-  color: #92d283;
+  color: #AE5747;
 }
 
 ul {
@@ -159,7 +159,7 @@ ul{
 }
 
 .back-to-top:hover {
-  background: #8bd07b;
+  background: #C17171;
   color: #fff;
 }
 
@@ -304,7 +304,6 @@ ul{
 }
 
 #header #logo h1 {
-  color: #505050;
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -342,7 +341,7 @@ ul{
 
 }
 #header.header-scrolled #logo h1 a {
-  color: #555;
+
   display: inline-block;
   text-decoration: none;
 }
@@ -353,9 +352,12 @@ ul{
 /**
 * Desktop Navigation
 */
-
-.navbar {
-/*    margin-top: 40%; */
+#indexbutton{
+  font-family: 'FoundersGrotesk-Light';
+  font-size: 3vh;
+  color: black;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .navbar ul {
@@ -363,13 +365,7 @@ ul{
   padding: 0;
   display: flex;
   list-style: none;
-      /* width: 22px; */
-      /* writing-mode: vertical-lr; */
-      /* position: fixed; */
-      /* top: 35%; */
-      /* right: 1%; */
-      /* flex-wrap: nowrap; */
-      /* align-items: stretch; */
+
 }
 
 .navbar li {
@@ -514,30 +510,7 @@ ul{
   margin-right: -1vh;
 }
 
-/**
-* Mobile Navigation
-*/
-.mobile-nav-toggle {
-  color: #222;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
 
-.mobile-nav-toggle.bi-x {
-  color: #fff;
-}
-/*
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-*/
-.mobile-nav-toggle{
-  display: block;
-}
   .navbar ul {
     display: none;
   }
@@ -1875,6 +1848,7 @@ section {
 iframe{
   margin: 0 auto;
   height: 100%;
+  width: 100%;
 }
 
 /* Interactive container */
@@ -2049,6 +2023,7 @@ iframe{
   position: absolute;
   left: 14vw;
   top: 45vh;
+  width: 30vw;
   display: none;
 }
 #femaletext{
