@@ -278,6 +278,9 @@ $(document).ready(function(){
   $("#voice").click(function(){
     $("#voicetext").slideToggle("fast");
   });
+  $("#court").click(function(){
+    $("#courtext").slideToggle("fast");
+  });
 
 });
 

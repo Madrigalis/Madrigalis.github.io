@@ -2039,25 +2039,32 @@ iframe{
 #voicetext{
   position: absolute;
   left: 14vw;
-  top: 54vh;
+  top: 45vh;
   display: none;
 }
 #femaletext{
   position: absolute;
-  top: 10vh;
-  left: 53vw;
+  top: 9vh;
+  left: 54vw;
   display: none;
 }
 
 #placetext{
   position: absolute;
-  left: 35vw;
-  bottom: -14vh;
+  left: 32vw;
+  bottom: -30vh;
+  display: none;
+}
+
+#courtext{
+  position: absolute;
+  left: 5vw;
+  bottom: -30vh;
   display: none;
 }
 /*Conclusion-*/
 #conclusion{
-  height: 90vh;
+
 }
 #sowhat{
   font-size: 15vh;
