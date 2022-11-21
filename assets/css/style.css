@@ -1873,8 +1873,8 @@ section {
 /* iFrame visualization*/
 
 iframe{
-  background-size: contain;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* Interactive container */
