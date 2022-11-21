@@ -1,0 +1,246 @@
+,name,wikidata,dates,gender,citizenship,birthplace,birth country,geographical coordinates birthplace,place of death,country of death,geographical coordinates place of death,language,instrument
+0,Nicolaus Bruhns,http://www.wikidata.org/entity/Q57369,1665-1697,male,"['Denmark', 'Duchy of Schleswig']",Schwabstedt,Germany,Point(9.187222222 54.395833333),Husum,Germany,Point(9.051111111 54.476944444),German,organ
+1,Marc-Antoine Charpentier,http://www.wikidata.org/entity/Q55524,1643-1704,male,Kingdom of France,Paris,France,Point(2.351388888 48.856944444),Paris,France,Point(2.351388888 48.856944444),French,"['organ', 'voice']"
+2,Arcangelo Corelli,http://www.wikidata.org/entity/Q164475,1653-1713,male,Papal States,Fusignano,Italy,Point(11.95636 44.46656),Rome,Italy,Point(12.482777777 41.893055555),"['Latin', 'Italian']",violin
+3,John Bennet,http://www.wikidata.org/entity/Q374718,1575-1614,male,England,Lancashire,United Kingdom,Point(-2.6 53.8),,,,English,
+4,Adriano Banchieri,http://www.wikidata.org/entity/Q347804,1568-1634,male,,Bologna,Italy,Point(11.342777777 44.493888888),Bologna,Italy,Point(11.342777777 44.493888888),Italian,organ
+5,Agostino Agazzari,http://www.wikidata.org/entity/Q395563,1578-1640,male,,Siena,Italy,Point(11.331388888 43.318333333),Siena,Italy,Point(11.331388888 43.318333333),Italian,organ
+6,Maddalena Casulana,http://www.wikidata.org/entity/Q269690,1544-1590,female,,Casole d'Elsa,Italy,Point(11.0485 43.341111111),,,,,flute
+7,Girolamo Dalla Casa,http://www.wikidata.org/entity/Q354023,1543-1601,male,Republic of Venice,Udine,Italy,Point(13.233333333 46.066666666),Venice,Italy,Point(12.331944444 45.439722222),,
+8,Thomas Campion,http://www.wikidata.org/entity/Q455618,1567-1620,male,"['England', 'Kingdom of England']",London,United Kingdom,Point(-0.1275 51.507222222),London,United Kingdom,Point(-0.1275 51.507222222),"['Latin', 'English']",
+9,Sigismondo D'India,http://www.wikidata.org/entity/Q457145,1582-1629,male,,Naples,Italy,Point(14.25 40.833333333),Modena,Italy,Point(10.92572 44.64582),Italian,
+10,Scipione Dentice,http://www.wikidata.org/entity/Q290052,1560-1635,male,,Naples,Italy,Point(14.25 40.833333333),Naples,Italy,Point(14.25 40.833333333),,organ
+11,John Dowland,http://www.wikidata.org/entity/Q207355,1563-1626,male,Kingdom of England,London,United Kingdom,Point(-0.1275 51.507222222),London,United Kingdom,Point(-0.1275 51.507222222),English,lute
+12,William Byrd,http://www.wikidata.org/entity/Q208375,1543-1623,male,Kingdom of England,London,United Kingdom,Point(-0.1275 51.507222222),Stondon Massey,United Kingdom,Point(0.292 51.681),,organ
+13,Giovanni Battista Bassani,http://www.wikidata.org/entity/Q465565,1650-1716,male,Republic of Venice,Padua,Italy,Point(11.877777777 45.406388888),Bergamo,Italy,Point(9.67 45.695),Italian,"['organ', 'violin']"
+14,Melchior Borchgrevinck,http://www.wikidata.org/entity/Q469278,1570-1632,male,Denmark,Netherlands,Kingdom of the Netherlands,Point(5.55 52.316666666),Copenhagen,Denmark,Point(12.568888888 55.676111111),,
+15,Giulio Caccini,http://www.wikidata.org/entity/Q215308,1551-1618,male,Grand Duchy of Tuscany,Rome,Italy,Point(12.482777777 41.893055555),Florence,Italy,Point(11.254166666 43.771388888),Italian,"['viol', 'voice']"
+16,Hans Brachrogge,http://www.wikidata.org/entity/Q472819,1590-1638,male,Denmark,,,,,,,,
+17,Giovanni Francesco Anerio,http://www.wikidata.org/entity/Q711181,1567-1630,male,Italians,Rome,Italy,Point(12.482777777 41.893055555),Graz,Austria,Point(15.438611111 47.070833333),Italian,
+18,Antonio Cifra,http://www.wikidata.org/entity/Q601590,1584-1629,male,,Province of Latina,Italy,Point(12.903611111 41.4675),Loreto,Italy,Point(13.607430555 43.4403),Italian,
+19,Giovanni Bassano,http://www.wikidata.org/entity/Q494292,1558-1617,male,Republic of Venice,,,,Venice,Italy,Point(12.331944444 45.439722222),Latin,
+20,Felice Anerio,http://www.wikidata.org/entity/Q549044,1560-1614,male,Italians,Rome,Italy,Point(12.482777777 41.893055555),Rome,Italy,Point(12.482777777 41.893055555),,
+21,Filippo Azzaiolo,http://www.wikidata.org/entity/Q717917,1530-1569,male,,Bologna,Italy,Point(11.342777777 44.493888888),Bologna,Italy,Point(11.342777777 44.493888888),,
+22,Christoph Demantius,http://www.wikidata.org/entity/Q497554,1567-1643,male,Germany,Liberec,Czech Republic,Point(15.0584492 50.7699972),Freiberg,Germany,Point(13.342777777 50.911944444),German,
+23,Gregor Aichinger,http://www.wikidata.org/entity/Q633088,1564-1628,male,Germany,Regensburg,Germany,Point(12.083333333 49.016666666),Augsburg,Germany,Point(10.897777777 48.368888888),German,"['organ', 'pipe organ']"
+24,Fabrizio Dentice,http://www.wikidata.org/entity/Q635911,1593-1581,male,,Naples,Italy,Point(14.25 40.833333333),Naples,Italy,Point(14.25 40.833333333),,"['viol', 'lute']"
+25,Giovanni Animuccia,http://www.wikidata.org/entity/Q500507,1500-1571,male,Italians,Florence,Italy,Point(11.254166666 43.771388888),Rome,Italy,Point(12.482777777 41.893055555),,
+26,Giovanni Croce,http://www.wikidata.org/entity/Q920564,1557-1609,male,Republic of Venice,Chioggia,Italy,Point(12.27854 45.21891),Venice,Italy,Point(12.331944444 45.439722222),Italian,
+27,Baldassare Donato,http://www.wikidata.org/entity/Q804795,1530-1603,male,Republic of Venice,,,,Venice,Italy,Point(12.331944444 45.439722222),Italian,
+28,Tomaso Cecchino,http://www.wikidata.org/entity/Q1117014,1580-1644,male,Republic of Venice,Verona,Italy,Point(10.992777777 45.438611111),Hvar,Croatia,Point(16.441944444 43.171388888),Italian,
+29,Lodovico Agostini,http://www.wikidata.org/entity/Q946839,1534-1590,male,,Ferrara,Italy,Point(11.619865 44.835297),Ferrara,Italy,Point(11.619865 44.835297),Italian,voice
+30,Guillaume Bouzignac,http://www.wikidata.org/entity/Q983567,1587-1643,male,France,Narbonne,France,Point(3.003611111 43.184722222),,,,French,
+31,Ippolito Baccusi,http://www.wikidata.org/entity/Q1493373,1550-1609,male,,Mantua,Italy,Point(10.791111111 45.156388888),Verona,Italy,Point(10.992777777 45.438611111),,
+32,Francesco Corteccia,http://www.wikidata.org/entity/Q1230392,1502-1571,male,,Florence,Italy,Point(11.254166666 43.771388888),Florence,Italy,Point(11.254166666 43.771388888),Italian,pipe organ
+33,Richard Dering,http://www.wikidata.org/entity/Q2149323,1580-1630,male,United Kingdom of Great Britain and Ireland,London,United Kingdom,Point(-0.1275 51.507222222),Greater London,United Kingdom,Point(-0.083333333 51.5),English,organ
+34,Michael East,http://www.wikidata.org/entity/Q1927338,1580-1648,male,United Kingdom of Great Britain and Ireland,London,United Kingdom,Point(-0.1275 51.507222222),Lichfield,United Kingdom,Point(-1.82653 52.6835),English,organ
+35,Vittoria Aleotti,http://www.wikidata.org/entity/Q2707991,1573-1620,female,,Ferrara,Italy,Point(11.619865 44.835297),,,,,organ
+36,Luca Bati,http://www.wikidata.org/entity/Q2424465,1546-1608,male,,Florence,Italy,Point(11.254166666 43.771388888),Florence,Italy,Point(11.254166666 43.771388888),,pipe organ
+37,Nicolao Dorati,http://www.wikidata.org/entity/Q2754386,1513-1593,male,,Province of Lucca,Italy,Point(10.516666666 43.85),Lucca,Italy,Point(10.516666666 43.85),,trombone
+38,Jean de Castro,http://www.wikidata.org/entity/Q3175340,1540-1600,male,Prince-Bishopric of Liège,Liège,Belgium,Point(5.570555555 50.639722222),Cologne,Germany,Point(6.957777777 50.942222222),French,
+39,Thomas Bateson,http://www.wikidata.org/entity/Q3524896,1630,male,England,,,,Dublin,Republic of Ireland,Point(-6.260277777 53.349722222),English,organ
+40,Antonio Archilei,http://www.wikidata.org/entity/Q2857177,1500-1612,male,,Albano Laziale,Italy,Point(12.666666666 41.733333333),Florence,Italy,Point(11.254166666 43.771388888),,"['lute', 'voice']"
+41,Francesco Bianciardi,http://www.wikidata.org/entity/Q3749629,1570-1607,male,,Casole d'Elsa,Italy,Point(11.0485 43.341111111),Siena,Italy,Point(11.331388888 43.318333333),,organ
+42,Richard Carlton,http://www.wikidata.org/entity/Q3934778,1558-1638,male,United Kingdom of Great Britain and Ireland,,,,,,,,
+43,Giulio Belli,http://www.wikidata.org/entity/Q3769496,1560-1621,male,,Longiano,Italy,Point(12.333333333 44.083333333),Imola,Italy,Point(11.714722222 44.353055555),,
+44,Camillo Cortellini,http://www.wikidata.org/entity/Q3651486,1561-1630,male,,Bologna,Italy,Point(11.342777777 44.493888888),Bologna,Italy,Point(11.342777777 44.493888888),,
+45,Severo Bonini,http://www.wikidata.org/entity/Q3480834,1582-1663,male,,Florence,Italy,Point(11.254166666 43.771388888),Florence,Italy,Point(11.254166666 43.771388888),,organ
+46,Domenico Bianchini,http://www.wikidata.org/entity/Q3712917,1510-1576,male,Republic of Venice,Udine,Italy,Point(13.233333333 46.066666666),Venice,Italy,Point(12.331944444 45.439722222),,lute
+47,Fabio Costantini,http://www.wikidata.org/entity/Q3737659,1570-1644,male,,Staffolo,Italy,Point(13.186038888 43.4329),Tivoli,Italy,Point(12.8 41.966666666),,
+48,Michael Cavendish,http://www.wikidata.org/entity/Q3856134,1565-1628,male,United Kingdom of Great Britain and Ireland,,,,London,United Kingdom,Point(-0.1275 51.507222222),,
+49,Joan Brudieu,http://www.wikidata.org/entity/Q4894403,1520-1591,male,"['France', 'Crown of Aragon']",Limoges,France,Point(1.261666666 45.834444444),La Seu d'Urgell,Spain,Point(1.458611111 42.357777777),"['Latin', 'Spanish', 'Catalan']",
+50,Bartolomeo Barbarino,http://www.wikidata.org/entity/Q4865504,1617,male,,,,,,,,,
+51,Girolamo Conversi,http://www.wikidata.org/entity/Q5564760,1572-1575,male,,,,,,,,,
+52,Girolamo Belli,http://www.wikidata.org/entity/Q5564752,1552-1620,male,,Argenta,Italy,Point(11.836388888 44.613055555),Argenta,Italy,Point(11.836388888 44.613055555),,
+53,Giovanni Battista Conforti,http://www.wikidata.org/entity/Q5563724,1550-1570,male,,,,,,,,,
+54,Ippolito Ciera,http://www.wikidata.org/entity/Q6065392,1546-1561,male,,,,,,,,,
+55,Thomas Brewer,http://www.wikidata.org/entity/Q7787872,1611-1665,male,Kingdom of England,,,,,,,,
+56,Simon Boyleau,http://www.wikidata.org/entity/Q7518324,1544-1586,male,France,,,,,,,French,
+57,Simone Balsamino,http://www.wikidata.org/entity/Q7520256,1596,male,Italy,,,,,,,Italian,
+58,Giovanni Battista Crivelli,http://www.wikidata.org/entity/Q16206148,1652,male,,Scandiano,Italy,Point(10.687777777 44.5925),Modena,Italy,Point(10.92572 44.64582),,organ
+59,Valerio Bona,http://www.wikidata.org/entity/Q16859665,1560-1620,male,,Brescia,Italy,Point(10.220280555 45.538888888),,,,,
+60,Giovanni Contino,http://www.wikidata.org/entity/Q20100441,1513-1574,male,,,,,,,,,
+61,Francesco Adriani,http://www.wikidata.org/entity/Q28548877,1539-1575,male,,San Severino Marche,Italy,Point(13.177102777 43.228855555),Rome,Italy,Point(12.482777777 41.893055555),,
+62,William Cobbold,http://www.wikidata.org/entity/Q43234079,1560-1639,male,,,,,,,,,
+63,Giovanni Del Turco,http://www.wikidata.org/entity/Q56006649,1577-1647,male,,Florence,Italy,Point(11.254166666 43.771388888),,,,,
+64,Lelio Bertani,http://www.wikidata.org/entity/Q112536290,1550-1620,male,,,,,Brescia,Italy,Point(10.220280555 45.538888888),,
+65,Giovanni Boschetto Boschetti,http://www.wikidata.org/entity/Q55225893,1570-1622,male,,Orte,Italy,Point(12.386111111 42.460277777),Loreto,Italy,Point(13.607430555 43.4403),,
+66,Giovanni Battista Chinelli,http://www.wikidata.org/entity/Q57271845,1610-1677,male,,,,,,,,,
+67,Jacopo Corfini,http://www.wikidata.org/entity/Q82008847,1540-1591,male,,,,,,,,,
+68,Giovanni Battista Caletti,http://www.wikidata.org/entity/Q96070821,1577-1642,male,Germany,Crema,Italy,Point(9.683333333 45.366666666),,,,"['German', 'Italian']",
+69,Giulio Bonagiunta,http://www.wikidata.org/entity/Q108937597,1530-1571,male,,,,,,,,,
+70,Giovanni Gabrieli,http://www.wikidata.org/entity/Q34624,1554-1612,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Venice,Italy,Point(12.331944444 45.439722222),Italian,organ
+71,Henry VIII,http://www.wikidata.org/entity/Q38370,1491-1547,male,Kingdom of England,Palace of Placentia,United Kingdom,Point(-0.006666666 51.482222222),Palace of Whitehall,United Kingdom,Point(-0.125555555 51.504444444),"['French', 'Latin', 'Italian', 'English']",
+72,Sebastian Knüpfer,http://www.wikidata.org/entity/Q71496,1633-1676,male,Germany,Aš,Czech Republic,Point(12.1950743 50.223996008),Leipzig,Germany,Point(12.375 51.34),German,
+73,Thomas Lupo,http://www.wikidata.org/entity/Q353855,1571-1628,male,United Kingdom of Great Britain and Ireland,London,United Kingdom,Point(-0.1275 51.507222222),London,United Kingdom,Point(-0.1275 51.507222222),,viol
+74,Thomas Ford,http://www.wikidata.org/entity/Q354266,1580-1648,male,England,,,,London,United Kingdom,Point(-0.1275 51.507222222),English,viol
+75,Vincenzo Galilei,http://www.wikidata.org/entity/Q313765,1520-1591,male,"['Grand Duchy of Tuscany', 'Duchy of Florence']",Santa Maria a Monte,Italy,Point(10.683333333 43.7),Florence,Italy,Point(11.254166666 43.771388888),Italian,lute
+76,Josquin des Prez,http://www.wikidata.org/entity/Q143100,1450-1521,male,"['France', 'Habsburg Netherlands']",Vermandois,France,Point(3.28333333 49.85),Condé-sur-l'Escaut,France,Point(3.590555555 50.449166666),French,
+77,Luca Marenzio,http://www.wikidata.org/entity/Q316532,1553-1599,male,"['Republic of Venice', 'Papal States']",Coccaglio,Italy,Point(9.978333333 45.563333333),Rome,Italy,Point(12.482777777 41.893055555),Italian,
+78,Heinrich Isaac,http://www.wikidata.org/entity/Q316668,1450-1517,male,County of Flanders,Flanders,Belgium,Point(4.5 51.0),Florence,Italy,Point(11.254166666 43.771388888),Latin,organ
+79,Valentin Haussmann,http://www.wikidata.org/entity/Q249689,1560-1614,male,Germany,Gerbstedt,Germany,Point(11.616666666 51.633055555),Gerbstedt,Germany,Point(11.616666666 51.633055555),German,pipe organ
+80,Daniel Friderici,http://www.wikidata.org/entity/Q322254,1584-1638,male,Germany,Querfurt,Germany,Point(11.6 51.383333333),Rostock,Germany,Point(12.133333333 54.083333333),German,
+81,Biagio Marini,http://www.wikidata.org/entity/Q110224592,1587-1663,,,,,,,,,,
+82,Hans Leo Hassler,http://www.wikidata.org/entity/Q164882,1564-1612,male,Germany,Nuremberg,Germany,Point(11.0775 49.453888888),Frankfurt am Main,Germany,Point(8.682222222 50.110555555),German,organ
+83,Johannes Jeep,http://www.wikidata.org/entity/Q428075,1581-1644,male,Germany,Dransfeld,Germany,Point(9.766666666 51.5),Hanau,Germany,Point(8.916944444 50.132777777),German,organ
+84,Carlo Gesualdo,http://www.wikidata.org/entity/Q192958,1560-1613,male,Kingdom of Naples,Naples,Italy,Point(14.25 40.833333333),Gesualdo,Italy,Point(15.073333333 41.007777777),Italian,lute
+85,Stefano Felis,http://www.wikidata.org/entity/Q431549,1550-1603,male,,Bari,Italy,Point(16.866666666 41.125277777),Bari,Italy,Point(16.866666666 41.125277777),,
+86,Luzzasco Luzzaschi,http://www.wikidata.org/entity/Q445581,1544-1607,male,,Ferrara,Italy,Point(11.619865 44.835297),Ferrara,Italy,Point(11.619865 44.835297),Italian,pipe organ
+87,Girolamo Frescobaldi,http://www.wikidata.org/entity/Q209212,1583-1643,male,"['Papal States', 'Duchy of Ferrara']",Ferrara,Italy,Point(11.619865 44.835297),Rome,Italy,Point(12.482777777 41.893055555),Italian,"['organ', 'harpsichord']"
+88,John Farmer,http://www.wikidata.org/entity/Q1335446,1570-1591,male,United Kingdom of Great Britain and Ireland,Nottingham,United Kingdom,Point(-1.149166666 52.955),Oxford,United Kingdom,Point(-1.257777777 51.751944444),,
+89,Andrea Gabrieli,http://www.wikidata.org/entity/Q217317,1533-1585,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Venice,Italy,Point(12.331944444 45.439722222),Italian,organ
+90,Gioseffo Guami,http://www.wikidata.org/entity/Q610708,1540-1611,male,,Lucca,Italy,Point(10.516666666 43.85),Lucca,Italy,Point(10.516666666 43.85),,"['violin', 'pipe organ']"
+91,Francisco Guerrero,http://www.wikidata.org/entity/Q470568,1528-1599,male,Crown of Castile,Seville,Spain,Point(-5.983333333 37.383333333),Seville,Spain,Point(-5.983333333 37.383333333),Spanish,organ
+92,Marco da Gagliano,http://www.wikidata.org/entity/Q540638,1582-1643,male,,Florence,Italy,Point(11.254166666 43.771388888),Florence,Italy,Point(11.254166666 43.771388888),Italian,
+93,Andreas Hammerschmidt,http://www.wikidata.org/entity/Q497864,1612-1675,male,Germany,Most,Czech Republic,Point(13.636666666 50.503055555),Zittau,Germany,Point(14.807222222 50.896111111),German,"['organ', 'pipe organ']"
+94,Leonhard Lechner,http://www.wikidata.org/entity/Q683132,1553-1606,male,Germany,South Tyrol,Italy,Point(11.33333334 46.50000001),Stuttgart,Germany,Point(9.18 48.7775),German,
+95,Costanzo Festa,http://www.wikidata.org/entity/Q937584,1490-1545,male,,Piedmont,Italy,Point(7.916666666 45.25),Rome,Italy,Point(12.482777777 41.893055555),Italian,
+96,Alessandro Grandi,http://www.wikidata.org/entity/Q948575,1590-1630,male,Republic of Venice,Ferrara,Italy,Point(11.619865 44.835297),Bergamo,Italy,Point(9.67 45.695),Italian,
+97,Giovanni Giacomo Gastoldi,http://www.wikidata.org/entity/Q964231,1582-1609,male,,Caravaggio,Italy,Point(9.643055555 45.497777777),Mantua,Italy,Point(10.791111111 45.156388888),Italian,voice
+98,John Hilton the younger,http://www.wikidata.org/entity/Q1289313,1599-1657,male,United Kingdom of Great Britain and Ireland,Cambridge,United Kingdom,Point(0.1225 52.208055555),Westminster,United Kingdom,Point(-0.1333 51.4995),English,
+99,Ruggiero Giovannelli,http://www.wikidata.org/entity/Q1369480,1560-1625,male,,Velletri,Italy,Point(12.783333333 41.666666666),Rome,Italy,Point(12.482777777 41.893055555),,
+100,Giles Farnaby,http://www.wikidata.org/entity/Q1343764,1565-1640,male,England,London,United Kingdom,Point(-0.1275 51.507222222),City of London,United Kingdom,Point(-0.093055555 51.515555555),English,harpsichord
+101,Anthony Holborne,http://www.wikidata.org/entity/Q1676220,1545-1602,male,Kingdom of England,,,,London,United Kingdom,Point(-0.1275 51.507222222),English,cittern
+102,Giovanni de Macque,http://www.wikidata.org/entity/Q1403614,1550-1614,male,France,Valenciennes,France,Point(3.523333333 50.358055555),Naples,Italy,Point(14.25 40.833333333),French,organ
+103,Giovanni Piero Manenti,http://www.wikidata.org/entity/Q1526316,1535-1597,male,,Bologna,Italy,Point(11.342777777 44.493888888),Florence,Italy,Point(11.254166666 43.771388888),,
+104,Giovanni Pietro Flaccomio,http://www.wikidata.org/entity/Q1526322,1565-1617,male,,Milazzo,Italy,Point(15.237 38.217),Turin,Italy,Point(7.7 45.066666666),,
+105,Simon Gintzler,http://www.wikidata.org/entity/Q1695832,1490-1547,male,Germany,South Tyrol,Italy,Point(11.33333334 46.50000001),Trento,Italy,Point(11.11666667 46.06666667),German,
+106,Noé Faignient,http://www.wikidata.org/entity/Q2134295,1537-1578,male,,Cambrai,France,Point(3.234722222 50.175833333),Antwerp,Belgium,Point(4.399722222 51.221111111),,
+107,George Kirbye,http://www.wikidata.org/entity/Q1997700,1565-1634,male,United Kingdom of Great Britain and Ireland,,,,,,,,
+108,Robert Jones,http://www.wikidata.org/entity/Q18630239,1570-1617,male,,Monmouth,United Kingdom,Point(-2.72 51.81),,,,,organ
+109,Jhan Gero,http://www.wikidata.org/entity/Q1657883,1518-1555,male,,,,,,,,,
+110,Alfonso Fontanelli,http://www.wikidata.org/entity/Q2062267,1557-1622,male,,Reggio Emilia,Italy,Point(10.633333333 44.7),Rome,Italy,Point(12.482777777 41.893055555),Italian,
+111,Giovanni Ghizzolo,http://www.wikidata.org/entity/Q3107205,1580-1625,male,,Brescia,Italy,Point(10.220280555 45.538888888),Novara,Italy,Point(8.616666666 45.45),Italian,
+112,Giovanni Ferretti,http://www.wikidata.org/entity/Q3107173,1540-1609,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),,,,,
+113,Ellis Gibbons,http://www.wikidata.org/entity/Q3723541,1573-1603,male,United Kingdom of Great Britain and Ireland,Cambridge,United Kingdom,Point(0.1225 52.208055555),,,,,
+114,Thomas Greaves,http://www.wikidata.org/entity/Q3990629,1604,male,United Kingdom of Great Britain and Ireland,,,,,,,,lute
+115,Giacomo Fogliano,http://www.wikidata.org/entity/Q3805961,1468-1548,male,,Modena,Italy,Point(10.92572 44.64582),Modena,Italy,Point(10.92572 44.64582),,organ
+116,John Holmes,http://www.wikidata.org/entity/Q3809346,1629,male,,,,,,,,,
+117,Giulio Fiesco,http://www.wikidata.org/entity/Q5565265,1520-1586,male,,Ferrara,Italy,Point(11.619865 44.835297),Ferrara,Italy,Point(11.619865 44.835297),,
+118,Edward Johnson,http://www.wikidata.org/entity/Q5343803,1545-1601,male,Kingdom of England,,,,,,,,
+119,John Hilton the elder,http://www.wikidata.org/entity/Q6239329,1569-1608,male,Kingdom of England,,,,,,,English,"['pipe organ', 'voice']"
+120,Maistre Jhan,http://www.wikidata.org/entity/Q6737089,1485-1538,male,France,,,,Ferrara,Italy,Point(11.619865 44.835297),,
+121,Scipione Lacorcia,http://www.wikidata.org/entity/Q7434030,1585-1620,male,,Naples,Italy,Point(14.25 40.833333333),,,,Italian,
+122,Sebastiano Festa,http://www.wikidata.org/entity/Q7442579,1495-1524,male,,,,,Rome,Italy,Point(12.482777777 41.893055555),,
+123,Antonio Gualtieri,http://www.wikidata.org/entity/Q16054417,1649,male,Republic of Venice,,,,Venice,Italy,Point(12.331944444 45.439722222),,
+124,Paolo Isnardi,http://www.wikidata.org/entity/Q16863445,1536-1596,male,,,,,Ferrara,Italy,Point(11.619865 44.835297),,
+125,Gabriele Fallamero,http://www.wikidata.org/entity/Q112456781,1584,male,,,,,,,,,
+126,Johann Lyttich,http://www.wikidata.org/entity/Q20003638,1581-1611,male,,Plauen,Germany,Point(12.138333333 50.495),,,,,
+127,Camillo Lambardi,http://www.wikidata.org/entity/Q50316330,1560-1634,male,Kingdom of Naples,Naples,Italy,Point(14.25 40.833333333),Naples,Italy,Point(14.25 40.833333333),,
+128,Andrea Feliciani,http://www.wikidata.org/entity/Q55227467,1596,male,,Siena,Italy,Point(11.331388888 43.318333333),Siena,Italy,Point(11.331388888 43.318333333),,
+129,Thomas Hunt,http://www.wikidata.org/entity/Q99237806,1580-1658,male,,,,,,,,,
+130,Giovan Battista Leonetti,http://www.wikidata.org/entity/Q107995775,1575-1617,male,,Crema,Italy,Point(9.683333333 45.366666666),Crema,Italy,Point(9.683333333 45.366666666),,
+131,Girolamo Ferrari,http://www.wikidata.org/entity/Q113412847,1600-1664,male,,Mondondone,Italy,Point(9.0723 44.94717),,,,,
+132,Henry Purcell,http://www.wikidata.org/entity/Q9695,1659-1695,male,Kingdom of England,Westminster,United Kingdom,Point(-0.1333 51.4995),Westminster,United Kingdom,Point(-0.1333 51.4995),English,"['harpsichord', 'pipe organ']"
+133,Claudio Monteverdi,http://www.wikidata.org/entity/Q53068,1567-1643,male,Republic of Venice,Cremona,Italy,Point(10.033333333 45.133333333),Venice,Italy,Point(12.331944444 45.439722222),Italian,"['viol', 'pipe organ', 'viola da braccio']"
+134,Girolamo Parabosco,http://www.wikidata.org/entity/Q29300,1524-1557,male,Republic of Venice,Piacenza,Italy,Point(9.7 45.05),Venice,Italy,Point(12.331944444 45.439722222),Italian,pipe organ
+135,Giovanni Antonio Rigatti,http://www.wikidata.org/entity/Q142515,1615-1649,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Venice,Italy,Point(12.331944444 45.439722222),,
+136,Cipriano de Rore,http://www.wikidata.org/entity/Q316074,1515-1565,male,Republic of Venice,Ronse,Belgium,Point(3.6 50.75),Parma,Italy,Point(10.328 44.801472222),Italian,
+137,Claudio Merulo,http://www.wikidata.org/entity/Q380517,1533-1604,male,Republic of Venice,Correggio,Italy,Point(10.780555555 44.771666666),Parma,Italy,Point(10.328 44.801472222),Italian,"['organ', 'pipe organ']"
+138,Jacob Regnart,http://www.wikidata.org/entity/Q267177,1540-1599,male,Southern Netherlands,Douai,France,Point(3.079166666 50.370833333),Prague,Czech Republic,Point(14.421388888 50.0875),Dutch,
+139,Michael Praetorius,http://www.wikidata.org/entity/Q108278,1571-1621,male,Duchy of Brunswick-Lüneburg,Creuzburg,Germany,Point(10.244722222 51.051388888),Wolfenbüttel,Germany,Point(10.536944444 52.162222222),Latin,organ
+140,Philippe de Monte,http://www.wikidata.org/entity/Q277029,1521-1603,male,Spanish Netherlands,Mechelen,Belgium,Point(4.480277777 51.028055555),Prague,Czech Republic,Point(14.421388888 50.0875),Dutch,
+141,Thomas Morley,http://www.wikidata.org/entity/Q438141,1557-1603,male,"['England', 'Kingdom of England']",Norwich,United Kingdom,Point(1.299167 52.628056),London,United Kingdom,Point(-0.1275 51.507222222),English,"['organ', 'pipe organ']"
+142,Francesco Rasi,http://www.wikidata.org/entity/Q363011,1574-1620,male,,Arezzo,Italy,Point(11.878055555 43.463055555),,,,Italian,voice
+143,Salamone Rossi,http://www.wikidata.org/entity/Q713436,1570-1630,male,Duchy of Mantua,Mantua,Italy,Point(10.791111111 45.156388888),Mantua,Italy,Point(10.791111111 45.156388888),,violin
+144,Thomas Ravenscroft,http://www.wikidata.org/entity/Q634595,1590-1633,male,United Kingdom of Great Britain and Ireland,Cheshire,United Kingdom,Point(-2.583333333 53.166666666),London,United Kingdom,Point(-0.1275 51.507222222),English,
+145,Giovanni Bernardino Nanino,http://www.wikidata.org/entity/Q723537,1560-1623,male,,Vallerano,Italy,Point(12.264166666 42.385),Vallerano,Italy,Point(12.264166666 42.385),,organ
+146,Asprilio Pacelli,http://www.wikidata.org/entity/Q738001,1570-1623,male,,Stroncone,Italy,Point(12.666666666 42.5),Warsaw,Poland,Point(21.011111111 52.23),Italian,
+147,Mogens Pedersøn,http://www.wikidata.org/entity/Q962427,1585-1623,male,Denmark,Copenhagen,Denmark,Point(12.568888888 55.676111111),,,,,
+148,Giovanni Maria Nanino,http://www.wikidata.org/entity/Q706287,1543-1607,male,,Tivoli,Italy,Point(12.8 41.966666666),Rome,Italy,Point(12.482777777 41.893055555),Italian,
+149,Giovanni Battista Mosto,http://www.wikidata.org/entity/Q1119331,1549-1596,male,Republic of Venice,Udine,Italy,Point(13.233333333 46.066666666),Alba Iulia,Romania,Point(23.572777777 46.076388888),,
+150,Marco Scacchi,http://www.wikidata.org/entity/Q1357654,1600-1687,male,,Gallese,Italy,Point(12.399722222 42.374444444),Gallese,Italy,Point(12.39646 42.37376),Italian,violin
+151,Giovanni Priuli,http://www.wikidata.org/entity/Q1445743,1575-1629,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Vienna,Austria,Point(16.3725 48.208333333),"['German', 'Italian']",pipe organ
+152,Vincenzo Ruffo,http://www.wikidata.org/entity/Q1494084,1508-1587,male,Republic of Venice,Verona,Italy,Point(10.992777777 45.438611111),Sacile,Italy,Point(12.50274 45.95412),,
+153,Giovanni Rovetta,http://www.wikidata.org/entity/Q1526347,1596-1668,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Venice,Italy,Point(12.331944444 45.439722222),,organ
+154,Andreas Pevernage,http://www.wikidata.org/entity/Q2159084,1543-1591,male,,Harelbeke,Belgium,Point(3.3131 50.8567),Antwerp,Belgium,Point(4.399722222 51.221111111),,
+155,Francis Pilkington,http://www.wikidata.org/entity/Q2462847,1562-1638,male,Kingdom of England,,,,Chester,United Kingdom,Point(-2.883333333 53.2),English,lute
+156,Mario Savioni,http://www.wikidata.org/entity/Q1899013,1608-1685,male,,Rome,Italy,Point(12.482777777 41.893055555),Rome,Italy,Point(12.482777777 41.893055555),,
+157,Martino Pesenti,http://www.wikidata.org/entity/Q1905637,1600-1648,male,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Venice,Italy,Point(12.331944444 45.439722222),,organ
+158,Melchior Neusidler,http://www.wikidata.org/entity/Q1919164,1531-1590,male,Germany,Nuremberg,Germany,Point(11.0775 49.453888888),Augsburg,Germany,Point(10.897777777 48.368888888),German,lute
+159,Peter Philips,http://www.wikidata.org/entity/Q1930460,1561-1628,male,United Kingdom of Great Britain and Ireland,London,United Kingdom,Point(-0.1275 51.507222222),Brussels,Belgium,Point(4.351666666 50.846666666),English,organ
+160,Giovanni Domenico da Nola,http://www.wikidata.org/entity/Q2395209,1510-1592,male,Kingdom of Naples,Nola,Italy,Point(14.533333333 40.933333333),Naples,Italy,Point(14.25 40.833333333),Italian,
+161,Angelo Notari,http://www.wikidata.org/entity/Q2849490,1566-1663,male,Republic of Venice,Padua,Italy,Point(11.877777777 45.406388888),London,United Kingdom,Point(-0.1275 51.507222222),,
+162,Pietro Maria Marsolo,http://www.wikidata.org/entity/Q3904046,1580-1615,male,,Messina,Italy,Point(15.554166666 38.193611111),Piacenza,Italy,Point(9.7 45.05),,
+163,Pomponio Nenna,http://www.wikidata.org/entity/Q3907903,1550- 1613,male,,Bari,Italy,Point(16.866666666 41.125277777),Rome,Italy,Point(12.482777777 41.893055555),Italian,
+164,Alessandro Orologio,http://www.wikidata.org/entity/Q3610181,1550-1633,male,,San Giorgio della Richinvelda,Italy,Point(12.866666666 46.05),Vienna,Austria,Point(16.3725 48.208333333),Italian,
+165,Andrea Rota,http://www.wikidata.org/entity/Q3616007,1553-1597,male,,Bologna,Italy,Point(11.342777777 44.493888888),Bologna,Italy,Point(11.342777777 44.493888888),,
+166,Robert Ramsey,http://www.wikidata.org/entity/Q3938401,1590-1644,male,United Kingdom,,,,,,,English,pipe organ
+167,Jan Nasco,http://www.wikidata.org/entity/Q3767806,1510-1561,male,,,,,,,,,
+168,John Milton,http://www.wikidata.org/entity/Q110935304,1608-1674,,,,,,,,,,
+169,John Mundy,http://www.wikidata.org/entity/Q3809503,1555-1630,male,United Kingdom of Great Britain and Ireland,,,,Windsor,United Kingdom,Point(-0.6 51.483333333),,organ
+170,Erasmo Marotta,http://www.wikidata.org/entity/Q3731086,1578-1641,male,,Randazzo,Italy,Point(14.95 37.883333333),Palermo,Italy,Point(13.361261944 38.115658055),,
+171,Claudio Pari,http://www.wikidata.org/entity/Q5129392,1574-1619,male,,,,,,,,,
+172,David Sacerdote,http://www.wikidata.org/entity/Q5239412,1550-1625,male,,Roure,Italy,Point(7.129432 45.001413),,,,,
+173,Galeazzo Sabbatini,http://www.wikidata.org/entity/Q5518314,1597-1662,male,,,,,Pesaro,Italy,Point(12.9133 43.91015),,
+174,Benedetto Pallavicino,http://www.wikidata.org/entity/Q4887229,1551-1601,male,,Cremona,Italy,Point(10.033333333 45.133333333),,,,Italian,organ
+175,Giovan Leonardo Primavera,http://www.wikidata.org/entity/Q5563608,1540-1585,male,,Barletta,Italy,Point(16.283333333 41.316666666),,,,,
+176,Ginés de Morata,http://www.wikidata.org/entity/Q5880038,1576,male,"['Spain', 'Portugal']",,,,,,,"['Latin', 'Spanish']",
+177,Tiburtio Massaino,http://www.wikidata.org/entity/Q7800551,1550-1608,male,,Cremona,Italy,Point(10.033333333 45.133333333),Cremona,Italy,Point(10.033333333 45.133333333),,
+178,Rinaldo del Mel,http://www.wikidata.org/entity/Q7334576,1554-1598,male,,Mechelen,Belgium,Point(4.480277777 51.028055555),,,,,
+179,Stefano Rossetto,http://www.wikidata.org/entity/Q7606486,1560-1583,male,,,,,,,,,
+180,Stephan Otto,http://www.wikidata.org/entity/Q7608155,1603-1656,male,Germany,,,,,,,German,
+181,Francesco Portinaro,http://www.wikidata.org/entity/Q16863487,1520-1578,male,Republic of Venice,Padua,Italy,Point(11.877777777 45.406388888),Padua,Italy,Point(11.877777777 45.406388888),,
+182,Hubert Naich,http://www.wikidata.org/entity/Q16863472,1513-1546,male,,,,,,,,,
+183,Walter Porter,http://www.wikidata.org/entity/Q18759427,1587-1659,male,,,,,,,,,
+184,Jeremy Savile,http://www.wikidata.org/entity/Q18810825,1651-1665,male,Kingdom of England,,,,,,,English,
+185,Ippolito Sabino,http://www.wikidata.org/entity/Q49361116,1550-1593,male,,,,,,,,,
+186,Giovan Domenico Montella,http://www.wikidata.org/entity/Q55998400,1570-1607,male,,,,,,,,,
+187,Ambrosius Metzger,http://www.wikidata.org/entity/Q55847929,1573-1632,male,Germany,,,,,,,German,
+188,Grammatio Metallo,http://www.wikidata.org/entity/Q61061769,1540-1615,male,,Province of Avellino,Italy,Point(14.789722222 40.915277777),,,,,
+189,Daniel Norcome,http://www.wikidata.org/entity/Q55903969,1601,male,,,,,,,,,
+190,Pietro Pace,http://www.wikidata.org/entity/Q63210400,1559-1622,male,,,,,,,,,
+191,Filippo Nicoletti,http://www.wikidata.org/entity/Q87254387,1577-1620,male,,,,,,,,,
+192,Domenico Micheli,http://www.wikidata.org/entity/Q87642969,1540-1590,male,,Bologna,Italy,Point(11.342777777 44.493888888),,,,,
+193,Bartolomeo Ratti,http://www.wikidata.org/entity/Q88300377,1565-1634,male,Republic of Venice,,,,,,,,
+194,Nathaniel Patrick,http://www.wikidata.org/entity/Q98915412,1590,male,United Kingdom,Worcester,United Kingdom,Point(-2.222222222 52.191111111),Worcester,United Kingdom,Point(-2.222222222 52.191111111),English,
+195,Biagio Pesciolini,http://www.wikidata.org/entity/Q101439336,1610,male,,Prato,Italy,Point(11.096561111 43.880813888),,,,,
+196,Santi Orlandi,http://www.wikidata.org/entity/Q102035932,1619,male,,,,,,,,,
+197,Ludwig Senfl,http://www.wikidata.org/entity/Q110133949,1490-1543,,,,,,,,,,
+198,Johann Hermann Schein,http://www.wikidata.org/entity/Q57827,1586-1630,male,Germany,Grünhain,Germany,Point(12.808888888 50.578611111),Leipzig,Germany,Point(12.375 51.34),German,
+199,Adrian Willaert,http://www.wikidata.org/entity/Q312615,1490-1562,male,County of Flanders,Rumbeke,Belgium,Point(3.1539 50.9333),Venice,Italy,Point(12.331944444 45.439722222),Dutch,
+200,Barbara Strozzi,http://www.wikidata.org/entity/Q232235,1619-1677,female,Republic of Venice,Venice,Italy,Point(12.331944444 45.439722222),Padua,Italy,Point(11.877777777 45.406388888),"['Italian', 'Venetian']",lute
+201,Alessandro Stradella,http://www.wikidata.org/entity/Q314765,1639-1682,male,Papal States,Bologna,Italy,Point(11.342777777 44.493888888),Genoa,Italy,Point(8.933983333 44.407186111),Italian,"['violin', 'voice']"
+202,Heinrich Schütz,http://www.wikidata.org/entity/Q153643,1585-1672,male,Germany,Bad Köstritz,Germany,Point(12.009722222 50.930555555),Dresden,Germany,Point(13.74 51.05),German,organ
+203,Orazio Vecchi,http://www.wikidata.org/entity/Q84146,1550-1605,male,,Modena,Italy,Point(10.92572 44.64582),Modena,Italy,Point(10.92572 44.64582),Italian,
+204,Gioseffo Zarlino,http://www.wikidata.org/entity/Q365805,1517-1590,male,Republic of Venice,Chioggia,Italy,Point(12.27854 45.21891),Venice,Italy,Point(12.331944444 45.439722222),Italian,organ
+205,Vincenzo Ugolini,http://www.wikidata.org/entity/Q330488,1570-1638,male,,Perugia,Italy,Point(12.3888 43.1121),Rome,Italy,Point(12.482777777 41.893055555),,violin
+206,Jan Pieterszoon Sweelinck,http://www.wikidata.org/entity/Q110294,1562-1621,male,Netherlands,Deventer,Netherlands,Point(6.2 52.25),Amsterdam,Netherlands,Point(4.9 52.383333333),Dutch,organ
+207,Alessandro Scarlatti,http://www.wikidata.org/entity/Q183087,1660-1725,male,,Palermo,Italy,Point(13.361261944 38.115658055),Naples,Italy,Point(14.25 40.833333333),Italian,harpsichord
+208,Jan Tollius,http://www.wikidata.org/entity/Q284127,1550-1603,male,Denmark,Amersfoort,Netherlands,Point(5.38 52.15),Copenhagen,Denmark,Point(12.568888888 55.676111111),,voice
+209,John Ward,http://www.wikidata.org/entity/Q447968,1571-1638,male,United Kingdom of Great Britain and Ireland,Canterbury,United Kingdom,Point(1.0775 51.278333333),Essex,United Kingdom,Point(0.583333333 51.75),,
+210,Giaches de Wert,http://www.wikidata.org/entity/Q591939,1535-1596,male,Habsburg Netherlands,Weert,Belgium,Point(4.1931 51.1019),Mantua,Italy,Point(10.791111111 45.156388888),Dutch,
+211,Bartolomeo Tromboncino,http://www.wikidata.org/entity/Q809518,1470-1534,male,Republic of Venice,Verona,Italy,Point(10.992777777 45.438611111),Venice,Italy,Point(12.331944444 45.439722222),,trombone
+212,Johann Stadlmayr,http://www.wikidata.org/entity/Q472907,1575-1648,male,Germany,Freising,Germany,Point(11.748888888 48.402777777),Innsbruck,Austria,Point(11.393333333 47.268333333),German,
+213,Philippe Verdelot,http://www.wikidata.org/entity/Q714219,1480-1530,male,France,Verdelot,France,Point(3.365833333 48.875),Florence,Italy,Point(11.254166666 43.771388888),French,
+214,Thomas Weelkes,http://www.wikidata.org/entity/Q553908,1575-1623,male,United Kingdom of Great Britain and Ireland,Sussex,United Kingdom,Point(-0.141372694 50.947102699),London,United Kingdom,Point(-0.1275 51.507222222),English,organ
+215,John Wilbye,http://www.wikidata.org/entity/Q682089,1574-1638,male,Kingdom of England,Diss,United Kingdom,Point(1.1079 52.3812),Colchester,United Kingdom,Point(0.903611 51.888611),English,
+216,Nicola Vicentino,http://www.wikidata.org/entity/Q944773,1511-1576,male,"['Republic of Venice', 'Holy Roman Empire']",Vicenza,Italy,Point(11.55 45.55),Milan,Italy,Point(9.19 45.466944444),Italian,
+217,Cornelis Schuyt,http://www.wikidata.org/entity/Q749364,1557-1616,male,Netherlands,Leiden,Netherlands,Point(4.49 52.16),Leiden,Netherlands,Point(4.49 52.16),Dutch,"['organ', 'pipe organ']"
+218,Francesco Turini,http://www.wikidata.org/entity/Q1441256,1589-1656,male,,Prague,Czech Republic,Point(14.421388888 50.0875),Brescia,Italy,Point(10.220280555 45.538888888),Italian,pipe organ
+219,Thomas Tomkins,http://www.wikidata.org/entity/Q968698,1572-1656,male,"['Wales', 'United Kingdom of Great Britain and Ireland']",St Davids,United Kingdom,Point(-5.268611111 51.882222222),Worcestershire,United Kingdom,Point(-2.166666666 52.2),English,organ
+220,Alessandro Striggio,http://www.wikidata.org/entity/Q1377115,1536-1592,male,"['Grand Duchy of Tuscany', 'Duchy of Florence']",Mantua,Italy,Point(10.791111111 45.156388888),Mantua,Italy,Point(10.791111111 45.156388888),,
+221,Francesco Soriano,http://www.wikidata.org/entity/Q1376058,1548-1621,male,Papal States,Soriano nel Cimino,Italy,Point(12.234166666 42.419444444),Rome,Italy,Point(12.482777777 41.893055555),,
+222,Johannes Schultz,http://www.wikidata.org/entity/Q1406864,1582-1653,male,Germany,Lüneburg,Germany,Point(10.414444444 53.2525),Dannenberg (Elbe),Germany,Point(11.1009 53.0986),German,
+223,Thomas Whythorne,http://www.wikidata.org/entity/Q2124600,1528-1596,male,United Kingdom,,,,,,,English,
+224,Ascanio Trombetti,http://www.wikidata.org/entity/Q2866349,1544-1590,male,,Bologna,Italy,Point(11.342777777 44.493888888),,,,Italian,
+225,Hubert Waelrant,http://www.wikidata.org/entity/Q2664749,1516-1595,male,Southern Netherlands,,,,Antwerp,Belgium,Point(4.399722222 51.221111111),,
+226,Annibale Zoilo,http://www.wikidata.org/entity/Q2920312,1537-1592,male,Papal States,Rome,Italy,Point(12.482777777 41.893055555),Loreto,Italy,Point(13.607430555 43.4403),,
+227,Filippo Vitali,http://www.wikidata.org/entity/Q3071924,1590-1653,male,,Florence,Italy,Point(11.254166666 43.771388888),Florence,Italy,Point(11.254166666 43.771388888),,voice
+228,Edmund Turges,http://www.wikidata.org/entity/Q3719486,1450-1507,male,United Kingdom of Great Britain and Ireland,Petworth,United Kingdom,Point(-0.609 50.986),,,,,
+229,Paolo Virchi,http://www.wikidata.org/entity/Q3894585,1551-1610,male,,Brescia,Italy,Point(10.220280555 45.538888888),,,,,
+230,Pietro Vinci,http://www.wikidata.org/entity/Q3388207,1525-1584,male,,Nicosia,Italy,Point(14.4 37.75),Nicosia,Italy,Point(14.4 37.75),Italian,
+231,Claudio Veggio,http://www.wikidata.org/entity/Q5129425,1510-1543,male,,Piacenza,Italy,Point(9.7 45.05),,,,,
+232,Girolamo Scotto,http://www.wikidata.org/entity/Q5564788,1505-1572,male,Republic of Venice,Milan,Italy,Point(9.19 45.466944444),Venice,Italy,Point(12.331944444 45.439722222),,
+233,Pietro Taglia,http://www.wikidata.org/entity/Q7193041,1555-65,male,,,,,,,,,
+234,Stefano Venturi del Nibbio,http://www.wikidata.org/entity/Q7606503,1592-1600,male,,,,,,,,,
+235,Antonio Francesco Tenaglia,http://www.wikidata.org/entity/Q10954739,1612-1672,male,,Florence,Italy,Point(11.254166666 43.771388888),Rome,Italy,Point(12.482777777 41.893055555),,organ
+236,Thomas Vautor,http://www.wikidata.org/entity/Q11951781,1600-1620,male,Kingdom of England,,,,,,,,
+237,Orfeo Vecchi,http://www.wikidata.org/entity/Q11939478,1551-1603,male,,,,,,,,,
+238,Bartolomeo Spontone,http://www.wikidata.org/entity/Q21001517,1530-1592,male,,,,,,,,,
+239,Melchior Schramm,http://www.wikidata.org/entity/Q24049612,1553-1619,male,,Ziębice,Poland,Point(17.044444444 50.6),Offenburg,Germany,Point(7.940833333 48.470833333),,organ
+240,Camillo Zanotti,http://www.wikidata.org/entity/Q84562722,1545-1591,male,,,,,,,,,
+241,Agostino Soderini,http://www.wikidata.org/entity/Q77535913,1575-1607,,,,,,,,,,
+242,Flaminio Tresti,http://www.wikidata.org/entity/Q110222853,1560-1613,,,,,,,,,,
+243,Cesare Zoilo,http://www.wikidata.org/entity/Q109265169,1584-1622,male,Papal States,,,,Rome,Italy,Point(12.482777777 41.893055555),,
+244,Tielman Susato,http://www.wikidata.org/entity/Q547783,1500-1570,male,Habsburg Netherlands,Soest,Germany,Point(8.109166666 51.571111111),Stockholm,Sweden,Point(18.068611111 59.329444444),,
