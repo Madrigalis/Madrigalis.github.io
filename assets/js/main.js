@@ -179,6 +179,8 @@
       mirror: false
     })
   });
+
+})()
   /**
    * Painting video with mouseover
    */
@@ -194,12 +196,6 @@
   });
   document.getElementById("monteverdi").addEventListener("mouseleave", function() {
     this.pause();
-  });
-  document.getElementById("monkey").addEventListener("mouseover", function() {
-  	this.play();
-  });
-  document.getElementById("monkey").addEventListener("mouseleave", function() {
-  	this.pause();
   });
   document.getElementById("ConcertInTheEgg").addEventListener("mouseover", function() {
     this.play();
@@ -225,12 +221,6 @@
   document.getElementById("Female").addEventListener("mouseleave", function() {
     this.pause();
   });
-  document.getElementById("rocking").addEventListener("mouseover", function() {
-    this.play();
-  });
-  document.getElementById("rocking").addEventListener("mouseleave", function() {
-    this.pause();
-  });
   document.getElementById("Consti").addEventListener("mouseover", function() {
     this.play();
   });
@@ -253,8 +243,6 @@
    * Audio with mouseover
    */
 
-})()
-
 /** Disappearing first enter block
 **/
 function disappear(){
@@ -267,10 +255,7 @@ function disappear(){
   document.getElementById("quartettoliuti").play();
 }
 
-/** Flip cards **/
-function flip(elid){
-  document.getElementById(elid).style.transform = "rotateY(180deg)";
-}
+
 
 // Dispay info comics
 $(document).ready(function(){
