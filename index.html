@@ -38,10 +38,12 @@
   <!--Sidepanel -->
   <div id="mySidepanel" class="sidepanel">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#about">About</a>
+  <a href="#theproject">The project</a>
+  <a href="#thedata">The data</a>
+  <a href="#datavis">Data visualisation</a>
+  <a href="#sowhat">So what?</a>
+  <a href="#team">Team</a>
   </div>
 
   <!-- ======= Header ======= -->
@@ -55,15 +57,7 @@
       </div>
 
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a id="cle" class="nav-link scrollto active" href="#hero">&#127932;</a></li>
-          <li><a class="nav-link scrollto" href="#features">&#x25cf;<span class="label">About</span></a></li>
-          <li><a class="nav-link scrollto" href="#about-us">&#x25cf;<span class="label">The Project</span></a></li>
-          <li><a class="nav-link scrollto" href="#screenshots">&#x25cf;<span class="label">Madrigals</span></a></li>
-          <li><a class="nav-link scrollto" href="#contact">&#x25cf;</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">&#x25cf;</a></li>
-          <li><a class="nav-link scrollto" href="#team">&#x25cf;<span class="label">Team</span></a></li>
-        </ul>
+
         <i class="bi bi-list mobile-nav-toggle" class="openbtn" onclick="openNav()">Index</i>
       </nav><!-- .navbar -->
       <div id="overlaypanel"></div>
@@ -170,7 +164,7 @@
 
 
       <!-- Madrigals definition !-->
-  <section id="features" class="padd-section text-center">
+  <section id="about" class="features padd-section text-center">
 
     <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -187,7 +181,7 @@
           </div>
         </div>
 
-        <div id="fliptext1" class="col-md-6 col-lg-4 flip-card">
+        <div id="" class="col-md-6 col-lg-4 flip-card">
           <div class="feature-block nopadding">
               <div class="feature-block">
                 <h2 class="titleparagraph">What is a madrigal?</h2>
@@ -205,7 +199,7 @@
           </div>
         </div>
 
-        <div id="fliptext1" class="col-md-6 col-lg-4 flip-card">
+        <div id="" class="col-md-6 col-lg-4 flip-card">
           <div class="feature-block nopadding">
               <div class="feature-block">
                 <p class="paragraph">This non-religious (secular) music form became so popular that composers from all over Europe contributed to it.
@@ -220,7 +214,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
 
 
 <!--Why giving voice to madrigals?-->
-<section id="features" class="padd-section text-center">
+<section id="theproject" class="features padd-section text-center">
 
 <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -266,7 +260,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
 </section>
 
 <!-- The British Library and Wikidata -->
-<section id="features" class="padd-section text-center">
+<section id="thedata" class="features padd-section text-center">
 
   <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -279,11 +273,11 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
         </div>
       </div>
 
-      <div id="fliptext1" class="col-md-6 col-lg-8 grid2">
+      <div id="" class="col-md-6 col-lg-8 grid2">
         <div class="feature-block nopadding">
             <div class="feature-block">
               <h2 class="titleparagraph" id="datatitle">The Data</h2>
-              <p id="workflow"> Starting with <b>the British Library Printed Music dataset</b>, we investigated the musical genre of the 16th-century madrigal, limiting the field of action to the years 1501-1673, from various perspectives: to answer the question <b><i>Who?</i></b> and furthermore, <b><i>When?</i></b>,  we focused on the composers and publishers. To react to <b><i>What?</i></b>  and <b><i>Where?</i></b> we examined the books' travel through European ages and countries. The initial dataset has been cleaned, reorganised, and enhanced with wikidata data.</p>
+              <p id="workflow"> Starting with <b><a href="https://www.bl.uk/collection-metadata/downloads" target="_blank">the British Library History of Printed Music</a> dataset</b>, we investigated the musical genre of the 16th-century madrigal, limiting the field of action to the years 1501-1678, from various perspectives: to answer the question <b><i>Who?</i></b> and furthermore, <b><i>When?</i></b>,  we focused on the composers and publishers. To react to <b><i>What?</i></b>  and <b><i>Where?</i></b> we examined the books' travel through European ages and countries. The initial dataset has been cleaned, reorganised, and enhanced with wikidata data.</p>
         </div>
       </div>
     </div>
@@ -551,7 +545,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
 </section>
 
   <!-- Title slides COMPOSER !-->
-<section id="features" class="padd-section text-center">
+<section id="datavis" class="features padd-section text-center">
 
 <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -569,7 +563,8 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
       <div class="feature-block nopadding">
           <div class="feature-block">
             <p id="madrigaldefinition">
-              <i>A genre of musical composition, extremely popular in the 16th-17th century, for voice ensemble or solo voice and instruments. Its distinguishing feature is word-painting (madrigalism): the expression, through the means of music, of the lyrics’ affects and meaning.</i></p>
+              Starting with the composers of madrigals extracted from the dataset of the British Library, we enriched the list with one more composer extracted from Wikidata, to which we integrated metadata also from <b>Wikidata</b>. This study about composers involves only those present in Wikidata: <b>245</b> out of the <b>369</b> present in the <b>BL dataset</b>.
+              <br><i>Who are these composers? Where do they come from? Who is the most prolific madrigal composer?</i></p>
           </div>
       </div>
     </div>
@@ -585,49 +580,15 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
         <div class="slides-wrapper">
           <!--prima slide-->
             <div class="slides active">
-
-                <div class="img-wrapper">
-                </div>
-
-                <div class="card-content">
-                    <div class="liked-wrapper">
-                    </div>
-                    <div class="comments-wrapper">
-                        <div class="submit-comment">
-                        </div>
-                    </div>
-                </div>
-
+                <iframe src="assets/viz/composers_provenance.html" title="Composers Provenance"  scrolling="no" frameborder="0" style="border: none;" width="1000" height="581" data-external="1"></iframe>
             </div>
             <!--seconda slide-->
               <div class="slides active">
-
-                  <div class="img-wrapper">
-                  </div>
-
-                  <div class="card-content">
-                      <div class="liked-wrapper">
-                      </div>
-                      <div class="comments-wrapper">
-                          <div class="submit-comment">
-                          </div>
-                      </div>
-                  </div>
+                  <iframe src="assets/viz/composers_gender.html" title="Composers Gender"  scrolling="no" frameborder="0" style="border: none;" width="1000" height="581" data-external="1"></iframe>
               </div>
               <!--terza slide-->
               <div class="slides active">
-
-                  <div class="img-wrapper">
-                  </div>
-
-                  <div class="card-content">
-                      <div class="liked-wrapper">
-                      </div>
-                      <div class="comments-wrapper">
-                          <div class="submit-comment">
-                          </div>
-                      </div>
-                  </div>
+            <iframe src="assets/viz/most_prolific_composers.html" title="Most Prolific Composers"  scrolling="no" frameborder="0" style="border: none;" width="1000" height="581" data-external="1"></iframe>
               </div>
 
         </div>
@@ -641,7 +602,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
 
 
   <!-- Title slides PUBLISHERS !-->
-    <section id="features" class="padd-section text-center">
+    <section id="" class="features padd-section text-center">
 
     <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -651,7 +612,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
           <div class="feature-block nopadding">
               <div class="feature-block">
                 <p id="madrigaldefinition">
-                  <i>A genre of musical composition, extremely popular in the 16th-17th century, for voice ensemble or solo voice and instruments. Its distinguishing feature is word-painting (madrigalism): the expression, through the means of music, of the lyrics’ affects and meaning.</i></p>
+                  From the British Library dataset, we extracted <b>665 records</b> of madrigal collections published <b>before 1678</b>. We got to thinking about publishers. <br><i>Where are they and can we discover some European or Italian centers of publication for madrigals? </i></p>
               </div>
           </div>
         </div>
@@ -671,54 +632,20 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
     <div class="slider-wrapper2">
         <div class="slider-overlay">
             <div class="slides-wrapper2">
+
               <!--prima slide-->
                 <div class="slides2 active">
-
-                    <div class="img-wrapper">
-                      <iframe title="Madrigal Publication across Europe" aria-label="Map" id="datawrapper-chart-8ZMW3" src="https://datawrapper.dwcdn.net/8ZMW3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 50% !important; border: none; margin: 0px auto; display: block;" height="581" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-                      </script>
-
-                    </div>
-
-                    <div class="card-content">
-                        <div class="liked-wrapper">
-                        </div>
-                        <div class="comments-wrapper">
-                            <div class="submit-comment">
-                            </div>
-                        </div>
-                    </div>
-
+                      <iframe title="Madrigal Publication across Europe" aria-label="Map" id="datawrapper-chart-8ZMW3" src="https://datawrapper.dwcdn.net/8ZMW3/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="581" data-external="1"></iframe>
                 </div>
+
                 <!--seconda slide-->
                   <div class="slides2 active">
-
-                      <div class="img-wrapper">
-                      </div>
-
-                      <div class="card-content">
-                          <div class="liked-wrapper">
-                          </div>
-                          <div class="comments-wrapper">
-                              <div class="submit-comment">
-                              </div>
-                          </div>
-                      </div>
+                    <iframe src="assets/viz/madrigal_publication_trend.html" title="Madrigal Publication Trend"  scrolling="no" frameborder="0" style="border: none;" width="1000" height="581" data-external="1"></iframe>
                   </div>
+
                   <!--terza slide-->
                   <div class="slides2 active">
 
-                      <div class="img-wrapper">
-                      </div>
-
-                      <div class="card-content">
-                          <div class="liked-wrapper">
-                          </div>
-                          <div class="comments-wrapper">
-                              <div class="submit-comment">
-                              </div>
-                          </div>
-                      </div>
                   </div>
 
             </div>
@@ -731,7 +658,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
         </div>
 
 <!-- Title slides TEXTS/BOOKS !-->
-          <section id="features" class="padd-section text-center">
+          <section id="" class="features padd-section text-center">
 
           <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -748,7 +675,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
                 <div class="feature-block nopadding">
                     <div class="feature-block">
                       <p id="madrigaldefinition">
-                        <i>A genre of musical composition, extremely popular in the 16th-17th century, for voice ensemble or solo voice and instruments. Its distinguishing feature is word-painting (madrigalism): the expression, through the means of music, of the lyrics’ affects and meaning.</i></p>
+                        From a list of madrigal titles, we wanted to delve deeper and discover some tendencies: <br><i>Which words are the most used, thus determining some recurring themes in the texts? (Is there a correlation with the number of voices used to speak of a topic?)</i></p>
                     </div>
                 </div>
               </div>
@@ -764,48 +691,14 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
                     <!--prima slide-->
                       <div class="slides3 active">
 
-                          <div class="img-wrapper">
-                          </div>
-
-                          <div class="card-content">
-                              <div class="liked-wrapper">
-                              </div>
-                              <div class="comments-wrapper">
-                                  <div class="submit-comment">
-                                  </div>
-                              </div>
-                          </div>
-
                       </div>
                       <!--seconda slide-->
                         <div class="slides3 active">
 
-                            <div class="img-wrapper">
-                            </div>
-
-                            <div class="card-content">
-                                <div class="liked-wrapper">
-                                </div>
-                                <div class="comments-wrapper">
-                                    <div class="submit-comment">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <!--terza slide-->
                         <div class="slides3 active">
 
-                            <div class="img-wrapper">
-                            </div>
-
-                            <div class="card-content">
-                                <div class="liked-wrapper">
-                                </div>
-                                <div class="comments-wrapper">
-                                    <div class="submit-comment">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
                   </div>
@@ -818,7 +711,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
               </div>
 
 <!-- Title slides VOICES !-->
-                        <section id="features" class="padd-section text-center">
+                        <section id="" class="features padd-section text-center">
 
                         <div id="featuresgrid" class="container" data-aos="fade-up">
 
@@ -828,7 +721,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
                               <div class="feature-block nopadding">
                                   <div class="feature-block">
                                     <p id="madrigaldefinition">
-                                      <i>A genre of musical composition, extremely popular in the 16th-17th century, for voice ensemble or solo voice and instruments. Its distinguishing feature is word-painting (madrigalism): the expression, through the means of music, of the lyrics’ affects and meaning.</i></p>
+                                      The madrigal is a musical genre involving voice ensembles, but <i>which voices are we talking about? Do composers favor a vocal formation over others?</i></p>
                                   </div>
                               </div>
                             </div>
@@ -849,51 +742,18 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
                         <div class="slider-wrapper4">
                             <div class="slider-overlay">
                                 <div class="slides-wrapper4">
+
                                   <!--prima slide-->
                                     <div class="slides4 active">
-
-                                        <div class="img-wrapper">
-                                        </div>
-
-                                        <div class="card-content">
-                                            <div class="liked-wrapper">
-                                            </div>
-                                            <div class="comments-wrapper">
-                                                <div class="submit-comment">
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                      <iframe src="assets/viz/madrigals_voicings_trend_over_time.html" title="Madrigal Voicings Trend over time"  scrolling="no" frameborder="0" style="border: none;" width="1000" height="581" data-external="1"></iframe>
                                     </div>
+
                                     <!--seconda slide-->
                                       <div class="slides4 active">
-
-                                          <div class="img-wrapper">
-                                          </div>
-
-                                          <div class="card-content">
-                                              <div class="liked-wrapper">
-                                              </div>
-                                              <div class="comments-wrapper">
-                                                  <div class="submit-comment">
-                                                  </div>
-                                              </div>
-                                          </div>
                                       </div>
+
                                       <!--terza slide-->
                                       <div class="slides4 active">
-
-                                          <div class="img-wrapper">
-                                          </div>
-
-                                          <div class="card-content">
-                                              <div class="liked-wrapper">
-                                              </div>
-                                              <div class="comments-wrapper">
-                                                  <div class="submit-comment">
-                                                  </div>
-                                              </div>
-                                          </div>
                                       </div>
 
                                 </div>
@@ -1076,7 +936,7 @@ Other musical genres surpassed the madrigal after XVII century.  He had a secon
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
             <a class="navbar-brand" href="#">The Data</a>
-            <p>This project was undertaken for the Electronic Publishing and Digital Storytelling (a.y. 2021-2022) final examination, as part of the Digital Humanities and Digital Knowledge Master's Degree at the University of Bologna.</p>
+            <p>The dataset comes from <a href="https://www.bl.uk/collection-metadata/downloads" target="_blank">the British Library History of Printed Music</a>, enriched with data from Wikidata.</p>
           </div>
         </div>
 
