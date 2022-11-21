@@ -638,7 +638,7 @@ $(function() {
 /** Slider Infographic PUBLISHERS**/
 $(function() {
   const $slides = $('.slides2');
-   const margin = 44
+   const margin = 0
   const $slideWidth = $($slides[0]).width()
   const $slideOverallWidth = $slideWidth + margin
   const $sliderWrapper = $('.slider-wrapper2')
