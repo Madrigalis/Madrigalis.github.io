@@ -195,8 +195,19 @@ ul{
   top: auto;
 }
 
-#artemisia{
+#flauto, #ScaredPetrarch{
   width: 100%;
+  position: relative;
+  padding: 15%;
+  text-align: justify;
+  left: auto;
+  top: auto;
+}
+#flauto{
+  padding-left: 10%;
+}
+#ScaredPetrarch{
+  padding-right: 10%;
 }
 
 #Lorenzo{
@@ -1393,9 +1404,7 @@ section {
     top: auto;
 }
 
-#fliptext2:hover #flipPetrarch {
- transform: rotateY(180deg);
-}
+
 
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
@@ -1412,20 +1421,6 @@ section {
 }
 
 /* Style the back side */
-.flip-card-back {
-  transform: rotateY(180deg);
-    font-size: 30px;
-    font-weight: 500;
-    padding: 0 3rem;
-    text-align: justify;
-    letter-spacing: 0.5px;
-    /* line-height: 2; */
-    position: relative;
-    padding: 15%;
-    text-align: justify;
-    left: auto;
-    top: auto;
-}
 
 .textcard{
   position: absolute;
@@ -1457,10 +1452,6 @@ section {
   background-image: url("../img/sfondonero.png");
 }
 
-#ScaredPetrarch{
-  width: 100%;
-  padding-top: 5%;
-}
 
 #monkey{
   height: inherit;
