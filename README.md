@@ -5,6 +5,6 @@ Project created for the Electronic Publishing and Digital Storytelling course ta
 
 The website presenting the project is accessible [here](https://madrigalis.github.io/). 
 
-Luisa Ammirati: Web development and digital storytelling
-Constance Dami: Data extraction and cleaning, data analysis
-Ilaria Rossi: Ideation, data visualization
+- Luisa Ammirati: Web development and digital storytelling
+- Constance Dami: Data extraction and cleaning, data analysis
+- Ilaria Rossi: Ideation, data visualization
