@@ -1932,8 +1932,8 @@ iframe{
 }
 #femaleinfo{
   position: absolute;
-  top: 5vh;
-  right: -50vw;
+  top: 2vh;
+  right: -49vw;
 }
 #placeholder{
   position: absolute;
@@ -1947,7 +1947,7 @@ iframe{
 }
 #court{
   position: absolute;
-  top: 5vh;
+  top: -3vh;
   left: 12vw;
 }
 #funny{
@@ -2035,8 +2035,8 @@ iframe{
 }
 #femaletext{
   position: absolute;
-  top: 9vh;
-  left: 54vw;
+  top: 5vh;
+  left: 53vw;
   display: none;
 }
 
@@ -2049,9 +2049,10 @@ iframe{
 
 #courtext{
   position: absolute;
-  left: 5vw;
+  left: 1vw;
   bottom: -30vh;
   display: none;
+  width: 27vw;
 }
 /*Conclusion-*/
 #conclusion{
