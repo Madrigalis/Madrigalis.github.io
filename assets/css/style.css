@@ -223,6 +223,7 @@ ul{
 #rocking{
   width: 100%;
   position: relative;
+  top: -10vh;
 }
 
 #Female{
@@ -1679,9 +1680,7 @@ iframe{
   display: none;
 }
 /*Conclusion-*/
-#conclusion{
 
-}
 #sowhat{
   font-size: 15vh;
   font-weight: 600;
