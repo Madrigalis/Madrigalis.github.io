@@ -181,6 +181,11 @@
     })
   });
 
+  /**
+  *removing white background sliders
+
+  $("svg.main-svg").removeAttr("style");
+  */
 })()
   /**
    * Painting video with mouseover

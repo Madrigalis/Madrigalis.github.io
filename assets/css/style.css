@@ -1312,7 +1312,7 @@ section {
   padding: 5%;
   text-align: left;
 }
-#madrigaldefinition{
+.madrigaldefinition{
   font-size: 3vh;
   text-align: justify;
   padding: 5%;
@@ -1844,7 +1844,14 @@ section {
 }
 
 /* iFrame visualization*/
-
+.textviz{
+  font-size: 3vh;
+  text-align: justify;
+  padding: 5%;
+  position:relative;
+  height:50%;
+  top:25%;
+}
 iframe{
   margin: 0 auto;
   height: 100%;
@@ -2084,7 +2091,9 @@ iframe{
   position: relative;
   background: #F8F5ED;
 }
-
+.slidesrow{
+  height:100%;
+}
 .slides:last-child, .slides2:last-child, .slides3:last-child, .slides4:last-child {
     margin: 0 7.5px;
 }
