@@ -49,12 +49,13 @@ h2 {
 }
 
 h4 {
-  color: #000;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 2;
+  margin-bottom: 10px;
+  text-align:left;
 }
 
 h5 {
@@ -1847,10 +1848,15 @@ section {
 .textviz{
   font-size: 3vh;
   text-align: justify;
-  padding: 5%;
-  position:relative;
-  height:50%;
-  top:25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+  flex-direction: column;
+}
+.textviz b{
+  color:inherit;
 }
 iframe{
   margin: 0 auto;
@@ -1932,8 +1938,8 @@ iframe{
 }
 #femaleinfo{
   position: absolute;
-  top: 2vh;
-  right: -49vw;
+  top: 5vh;
+  right: -50vw;
 }
 #placeholder{
   position: absolute;
@@ -1947,7 +1953,7 @@ iframe{
 }
 #court{
   position: absolute;
-  top: -3vh;
+  top: 5vh;
   left: 12vw;
 }
 #funny{
@@ -2035,8 +2041,8 @@ iframe{
 }
 #femaletext{
   position: absolute;
-  top: 5vh;
-  left: 53vw;
+  top: 9vh;
+  left: 54vw;
   display: none;
 }
 
@@ -2049,10 +2055,9 @@ iframe{
 
 #courtext{
   position: absolute;
-  left: 1vw;
+  left: 5vw;
   bottom: -30vh;
   display: none;
-  width: 27vw;
 }
 /*Conclusion-*/
 #conclusion{
@@ -2074,7 +2079,7 @@ iframe{
 }
 /* Slider Infographic -------------------*/
 
-.slider-wrapper {
+.slider-wrapper, .slider-wrapper2, .slider-wrapper3 {
   height: 95vh;
 }
 
@@ -2094,6 +2099,12 @@ iframe{
 }
 .slidesrow{
   height:100%;
+}
+.slidesrow>*{
+  height:inherit;
+}
+.slides img{
+  height:inherit;
 }
 .slides:last-child, .slides2:last-child, .slides3:last-child, .slides4:last-child {
     margin: 0 7.5px;
