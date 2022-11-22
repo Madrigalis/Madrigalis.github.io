@@ -1999,7 +1999,7 @@ iframe{
 
 .popup--top-left::after {
   top: -8%;
-  right: 60%;
+  right: 50%;
   border-style: solid;
   border-width: 20px 24px 0 0;
   border-color: transparent #F8F5ED transparent;
@@ -2022,12 +2022,16 @@ iframe{
 }
 #liutotext{
   position: absolute;
+  line-height: 1.5;
+  margin-bottom: 0;
   top: 53vh;
   left: 50vw;
   display: none;
 }
 #voicetext{
   position: absolute;
+  line-height: 1.5;
+  margin-bottom: 0;
   left: 14vw;
   top: 45vh;
   width: 30vw;
@@ -2035,6 +2039,8 @@ iframe{
 }
 #femaletext{
   position: absolute;
+  line-height: 1.5;
+  margin-bottom: 0;
   top: 5vh;
   left: 53vw;
   display: none;
@@ -2042,6 +2048,8 @@ iframe{
 
 #placetext{
   position: absolute;
+  line-height: 1.5;
+  margin-bottom: 0;
   left: 32vw;
   bottom: -30vh;
   display: none;
@@ -2049,8 +2057,10 @@ iframe{
 
 #courtext{
   position: absolute;
+  line-height: 1.5;
+  margin-bottom: 0;
   left: 1vw;
-  bottom: -30vh;
+  bottom: -27vh;
   display: none;
   width: 27vw;
 }
