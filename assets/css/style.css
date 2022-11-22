@@ -1917,7 +1917,7 @@ iframe{
   position: relative;
   width: 100%;
 }
-#teammember{
+#teammember, #popmadrigals{
   font-size: 15vh;
   font-weight: 600;
   position: relative;
