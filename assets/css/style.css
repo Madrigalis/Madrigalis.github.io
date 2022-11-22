@@ -1937,7 +1937,7 @@ iframe{
 }
 #placeholder{
   position: absolute;
-  top: 30vh;
+  top: 20vh;
   left: 31vw;
 }
 #voice{
@@ -1950,11 +1950,7 @@ iframe{
   top: -3vh;
   left: 12vw;
 }
-#funny{
-  position: absolute;
-  top:-5vh;
-  right: -80vw;
-}
+
 .popup--bottom-right{
   margin-left: 48px;
   left: 100%;
@@ -1999,7 +1995,7 @@ iframe{
 
 .popup--top-left::after {
   top: -8%;
-  right: 50%;
+  right: 60%;
   border-style: solid;
   border-width: 20px 24px 0 0;
   border-color: transparent #F8F5ED transparent;
@@ -2051,7 +2047,7 @@ iframe{
   line-height: 1.5;
   margin-bottom: 0;
   left: 32vw;
-  bottom: -30vh;
+  bottom: -8vh;
   display: none;
 }
 
