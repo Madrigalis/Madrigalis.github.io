@@ -1459,7 +1459,11 @@ section {
 
 /*TIMELINE*/
 #note-timeline{
+ height: 90vh;
+}
 
+#iframetimeline{
+  height: 70vh;
 }
 .cd-horizontal-timeline {
   opacity: 0;
