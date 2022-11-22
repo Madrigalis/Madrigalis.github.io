@@ -1575,7 +1575,7 @@ iframe{
 }
 #court{
   position: absolute;
-  top: 5vh;
+  top: -1vh;
   left: 12vw;
 }
 
@@ -1646,7 +1646,7 @@ iframe{
 }
 #liutotext{
   position: absolute;
-  top: 53vh;
+  top: 55vh;
   left: 50vw;
   display: none;
 }
@@ -1659,15 +1659,15 @@ iframe{
 }
 #femaletext{
   position: absolute;
-  top: 9vh;
-  left: 54vw;
+  top: 6vh;
+  left: 55vw;
   display: none;
 }
 
 #placetext{
   position: absolute;
   left: 32vw;
-  bottom: -8vh;
+  bottom: -20vh;
   display: none;
 }
 
