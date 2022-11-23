@@ -7,7 +7,7 @@ The website presenting the project is accessible [here](https://madrigalis.githu
 
 - Luisa Ammirati: Web development and digital storytelling
 - Constance Dami: Data extraction and cleaning, data analysis
-- Ilaria Rossi: Ideation, data visualization
+- Ilaria Rossi: Content editing, data visualization
 
 
 The Dataset about the History of Printed Music from the British Library is available under a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) license.
