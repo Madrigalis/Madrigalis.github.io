@@ -1481,7 +1481,7 @@ section {
   font-size: 3vh;
   font-weight: 300;
   /* letter-spacing: 0.5px; */
-  /* line-height: 2; */
+  line-height: 1.5; 
 }
 iframe{
   margin: 0 auto;
