@@ -1465,7 +1465,7 @@ section {
 
 /* iFrame visualization*/
 .textviz{
-  font-size: 3vh;
+  font-size: 2vh;
   text-align: justify;
   display: flex;
   align-items: center;
@@ -1476,6 +1476,12 @@ section {
 }
 .textviz b{
   color:inherit;
+}
+.pviz{
+  font-size: 3vh;
+  font-weight: 300;
+  /* letter-spacing: 0.5px; */
+  line-height: 1.5; 
 }
 iframe{
   margin: 0 auto;
